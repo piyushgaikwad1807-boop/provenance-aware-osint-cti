@@ -1,0 +1,50 @@
+[
+  {
+    "snapshot_id": "20260910_142020",
+    "created_at": "2026-09-10T14:20:20.111467+00:00",
+    "total_cves": 27,
+    "known_exploited": 27,
+    "corroborated_records": 27,
+    "nvd_available": 27,
+    "average_confidence": 1.0,
+    "nvd_coverage_rate": 100.0,
+    "kev_match_rate": 100.0,
+    "corroboration_rate": 100.0
+  },
+  {
+    "snapshot_id": "20260910_142546",
+    "created_at": "2026-09-10T14:25:46.910084+00:00",
+    "total_cves": 27,
+    "known_exploited": 27,
+    "corroborated_records": 27,
+    "nvd_available": 27,
+    "average_confidence": 1.0,
+    "nvd_coverage_rate": 100.0,
+    "kev_match_rate": 100.0,
+    "corroboration_rate": 100.0
+  },
+  {
+    "snapshot_id": "20260910_143213",
+    "created_at": "2026-09-10T14:32:13.483596+00:00",
+    "total_cves": 27,
+    "known_exploited": 27,
+    "corroborated_records": 27,
+    "nvd_available": 27,
+    "average_confidence": 1.0,
+    "nvd_coverage_rate": 100.0,
+    "kev_match_rate": 100.0,
+    "corroboration_rate": 100.0
+  },
+  {
+    "snapshot_id": "20260910_144919",
+    "created_at": "2026-09-10T14:49:19.699064+00:00",
+    "total_cves": 27,
+    "known_exploited": 27,
+    "corroborated_records": 27,
+    "nvd_available": 27,
+    "average_confidence": 1.0,
+    "nvd_coverage_rate": 100.0,
+    "kev_match_rate": 100.0,
+    "corroboration_rate": 100.0
+  }
+]

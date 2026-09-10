@@ -88,19 +88,19 @@ PIPELINE_STEPS = [
         "Validate final CTI dataset",
         "src/validate_cti.py"
     ),
-    
+
     (
         "Build final CTI dataset",
         "src/build_final_cti.py"
     ),
 
     (
-        "Validate final CTI dataset", 
+        "Validate final CTI dataset",
         "src/validate_cti.py"
     ),
 
     (
-        "Evaluate CTI dataset", 
+        "Evaluate CTI dataset",
         "src/evaluate_cti.py"
     ),
 
@@ -114,6 +114,22 @@ PIPELINE_STEPS = [
 
     (   "Save CTI historical snapshot",
         "src/save_snapshot.py"
+    ),
+
+    (   "Validate final CTI dataset",
+        "src/validate_cti.py"
+    ),
+
+    (   "Evaluate CTI dataset",
+        "src/evaluate_cti.py"
+    ),
+
+    (   "Save CTI historical snapshot",
+        "src/save_snapshot.py"
+    ),
+
+    (   "Analyze historical CTI trends",
+        "src/trend_analysis.py"
     ),
 ]
 

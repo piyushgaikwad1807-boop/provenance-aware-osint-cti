@@ -26,7 +26,7 @@
             "Source evidence descriptions are available",
             "Valid CVE identifier is present"
         ],
-        "generated_at": "2026-09-10T14:32:11.526208+00:00",
+        "generated_at": "2026-09-10T14:49:17.654917+00:00",
         "kev": {
             "known_exploited": true,
             "date_added": "2026-09-09",
@@ -40,7 +40,7 @@
             "source_url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json"
         },
         "exploitation_status": "KNOWN_EXPLOITED",
-        "kev_checked_at": "2026-09-10T14:32:12.985278+00:00"
+        "kev_checked_at": "2026-09-10T14:49:18.996490+00:00"
     },
     {
         "cve_id": "CVE-2026-19490",
@@ -69,7 +69,7 @@
             "Source evidence descriptions are available",
             "Valid CVE identifier is present"
         ],
-        "generated_at": "2026-09-10T14:32:11.526528+00:00",
+        "generated_at": "2026-09-10T14:49:17.654999+00:00",
         "kev": {
             "known_exploited": true,
             "date_added": "2026-09-09",
@@ -83,7 +83,7 @@
             "source_url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json"
         },
         "exploitation_status": "KNOWN_EXPLOITED",
-        "kev_checked_at": "2026-09-10T14:32:12.985348+00:00"
+        "kev_checked_at": "2026-09-10T14:49:18.996550+00:00"
     },
     {
         "cve_id": "CVE-2026-20079",
@@ -112,7 +112,7 @@
             "Source evidence descriptions are available",
             "Valid CVE identifier is present"
         ],
-        "generated_at": "2026-09-10T14:32:11.526724+00:00",
+        "generated_at": "2026-09-10T14:49:17.655029+00:00",
         "kev": {
             "known_exploited": true,
             "date_added": "2026-09-09",
@@ -126,7 +126,7 @@
             "source_url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json"
         },
         "exploitation_status": "KNOWN_EXPLOITED",
-        "kev_checked_at": "2026-09-10T14:32:12.985356+00:00"
+        "kev_checked_at": "2026-09-10T14:49:18.996559+00:00"
     },
     {
         "cve_id": "CVE-2026-87491",
@@ -155,7 +155,7 @@
             "Source evidence descriptions are available",
             "Valid CVE identifier is present"
         ],
-        "generated_at": "2026-09-10T14:32:11.526877+00:00",
+        "generated_at": "2026-09-10T14:49:17.655052+00:00",
         "kev": {
             "known_exploited": true,
             "date_added": "2026-09-09",
@@ -169,7 +169,7 @@
             "source_url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json"
         },
         "exploitation_status": "KNOWN_EXPLOITED",
-        "kev_checked_at": "2026-09-10T14:32:12.985434+00:00"
+        "kev_checked_at": "2026-09-10T14:49:18.996570+00:00"
     },
     {
         "cve_id": "CVE-2026-75650",
@@ -198,7 +198,7 @@
             "Source evidence descriptions are available",
             "Valid CVE identifier is present"
         ],
-        "generated_at": "2026-09-10T14:32:11.527019+00:00",
+        "generated_at": "2026-09-10T14:49:17.655072+00:00",
         "kev": {
             "known_exploited": true,
             "date_added": "2026-09-08",
@@ -212,7 +212,7 @@
             "source_url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json"
         },
         "exploitation_status": "KNOWN_EXPLOITED",
-        "kev_checked_at": "2026-09-10T14:32:12.985446+00:00"
+        "kev_checked_at": "2026-09-10T14:49:18.996579+00:00"
     },
     {
         "cve_id": "CVE-2026-81963",
@@ -241,7 +241,7 @@
             "Source evidence descriptions are available",
             "Valid CVE identifier is present"
         ],
-        "generated_at": "2026-09-10T14:32:11.527192+00:00",
+        "generated_at": "2026-09-10T14:49:17.655093+00:00",
         "kev": {
             "known_exploited": true,
             "date_added": "2026-09-08",
@@ -255,7 +255,7 @@
             "source_url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json"
         },
         "exploitation_status": "KNOWN_EXPLOITED",
-        "kev_checked_at": "2026-09-10T14:32:12.985451+00:00"
+        "kev_checked_at": "2026-09-10T14:49:18.996585+00:00"
     },
     {
         "cve_id": "CVE-2026-85880",
@@ -284,7 +284,7 @@
             "Source evidence descriptions are available",
             "Valid CVE identifier is present"
         ],
-        "generated_at": "2026-09-10T14:32:11.527335+00:00",
+        "generated_at": "2026-09-10T14:49:17.655113+00:00",
         "kev": {
             "known_exploited": true,
             "date_added": "2026-09-08",
@@ -298,7 +298,7 @@
             "source_url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json"
         },
         "exploitation_status": "KNOWN_EXPLOITED",
-        "kev_checked_at": "2026-09-10T14:32:12.985455+00:00"
+        "kev_checked_at": "2026-09-10T14:49:18.996589+00:00"
     },
     {
         "cve_id": "CVE-2026-86218",
@@ -327,7 +327,7 @@
             "Source evidence descriptions are available",
             "Valid CVE identifier is present"
         ],
-        "generated_at": "2026-09-10T14:32:11.527470+00:00",
+        "generated_at": "2026-09-10T14:49:17.655133+00:00",
         "kev": {
             "known_exploited": true,
             "date_added": "2026-09-08",
@@ -341,7 +341,7 @@
             "source_url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json"
         },
         "exploitation_status": "KNOWN_EXPLOITED",
-        "kev_checked_at": "2026-09-10T14:32:12.985460+00:00"
+        "kev_checked_at": "2026-09-10T14:49:18.996593+00:00"
     },
     {
         "cve_id": "CVE-2026-85046",
@@ -370,7 +370,7 @@
             "Source evidence descriptions are available",
             "Valid CVE identifier is present"
         ],
-        "generated_at": "2026-09-10T14:32:11.527609+00:00",
+        "generated_at": "2026-09-10T14:49:17.655153+00:00",
         "kev": {
             "known_exploited": true,
             "date_added": "2026-09-04",
@@ -384,7 +384,7 @@
             "source_url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json"
         },
         "exploitation_status": "KNOWN_EXPLOITED",
-        "kev_checked_at": "2026-09-10T14:32:12.985468+00:00"
+        "kev_checked_at": "2026-09-10T14:49:18.996597+00:00"
     },
     {
         "cve_id": "CVE-2026-48710",
@@ -413,7 +413,7 @@
             "Source evidence descriptions are available",
             "Valid CVE identifier is present"
         ],
-        "generated_at": "2026-09-10T14:32:11.527745+00:00",
+        "generated_at": "2026-09-10T14:49:17.655173+00:00",
         "kev": {
             "known_exploited": true,
             "date_added": "2026-09-02",
@@ -427,7 +427,7 @@
             "source_url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json"
         },
         "exploitation_status": "KNOWN_EXPLOITED",
-        "kev_checked_at": "2026-09-10T14:32:12.985473+00:00"
+        "kev_checked_at": "2026-09-10T14:49:18.996605+00:00"
     },
     {
         "cve_id": "CVE-2026-49869",
@@ -456,7 +456,7 @@
             "Source evidence descriptions are available",
             "Valid CVE identifier is present"
         ],
-        "generated_at": "2026-09-10T14:32:11.527878+00:00",
+        "generated_at": "2026-09-10T14:49:17.655193+00:00",
         "kev": {
             "known_exploited": true,
             "date_added": "2026-09-02",
@@ -470,7 +470,7 @@
             "source_url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json"
         },
         "exploitation_status": "KNOWN_EXPLOITED",
-        "kev_checked_at": "2026-09-10T14:32:12.985477+00:00"
+        "kev_checked_at": "2026-09-10T14:49:18.996609+00:00"
     },
     {
         "cve_id": "CVE-2026-59822",
@@ -499,7 +499,7 @@
             "Source evidence descriptions are available",
             "Valid CVE identifier is present"
         ],
-        "generated_at": "2026-09-10T14:32:11.528037+00:00",
+        "generated_at": "2026-09-10T14:49:17.655214+00:00",
         "kev": {
             "known_exploited": true,
             "date_added": "2026-09-02",
@@ -513,7 +513,7 @@
             "source_url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json"
         },
         "exploitation_status": "KNOWN_EXPLOITED",
-        "kev_checked_at": "2026-09-10T14:32:12.985481+00:00"
+        "kev_checked_at": "2026-09-10T14:49:18.996613+00:00"
     },
     {
         "cve_id": "CVE-2026-82329",
@@ -542,7 +542,7 @@
             "Source evidence descriptions are available",
             "Valid CVE identifier is present"
         ],
-        "generated_at": "2026-09-10T14:32:11.528173+00:00",
+        "generated_at": "2026-09-10T14:49:17.655241+00:00",
         "kev": {
             "known_exploited": true,
             "date_added": "2026-09-02",
@@ -556,7 +556,7 @@
             "source_url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json"
         },
         "exploitation_status": "KNOWN_EXPLOITED",
-        "kev_checked_at": "2026-09-10T14:32:12.985485+00:00"
+        "kev_checked_at": "2026-09-10T14:49:18.996616+00:00"
     },
     {
         "cve_id": "CVE-2026-83548",
@@ -585,7 +585,7 @@
             "Source evidence descriptions are available",
             "Valid CVE identifier is present"
         ],
-        "generated_at": "2026-09-10T14:32:11.528308+00:00",
+        "generated_at": "2026-09-10T14:49:17.655263+00:00",
         "kev": {
             "known_exploited": true,
             "date_added": "2026-09-02",
@@ -599,7 +599,7 @@
             "source_url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json"
         },
         "exploitation_status": "KNOWN_EXPLOITED",
-        "kev_checked_at": "2026-09-10T14:32:12.985488+00:00"
+        "kev_checked_at": "2026-09-10T14:49:18.996620+00:00"
     },
     {
         "cve_id": "CVE-2026-83549",
@@ -628,7 +628,7 @@
             "Source evidence descriptions are available",
             "Valid CVE identifier is present"
         ],
-        "generated_at": "2026-09-10T14:32:11.528441+00:00",
+        "generated_at": "2026-09-10T14:49:17.655283+00:00",
         "kev": {
             "known_exploited": true,
             "date_added": "2026-09-02",
@@ -642,7 +642,7 @@
             "source_url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json"
         },
         "exploitation_status": "KNOWN_EXPLOITED",
-        "kev_checked_at": "2026-09-10T14:32:12.985496+00:00"
+        "kev_checked_at": "2026-09-10T14:49:18.996628+00:00"
     },
     {
         "cve_id": "CVE-2026-9586",
@@ -671,7 +671,7 @@
             "Source evidence descriptions are available",
             "Valid CVE identifier is present"
         ],
-        "generated_at": "2026-09-10T14:32:11.528593+00:00",
+        "generated_at": "2026-09-10T14:49:17.655302+00:00",
         "kev": {
             "known_exploited": true,
             "date_added": "2026-09-02",
@@ -685,7 +685,7 @@
             "source_url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json"
         },
         "exploitation_status": "KNOWN_EXPLOITED",
-        "kev_checked_at": "2026-09-10T14:32:12.985500+00:00"
+        "kev_checked_at": "2026-09-10T14:49:18.996632+00:00"
     },
     {
         "cve_id": "CVE-2026-81578",
@@ -714,7 +714,7 @@
             "Source evidence descriptions are available",
             "Valid CVE identifier is present"
         ],
-        "generated_at": "2026-09-10T14:32:11.528731+00:00",
+        "generated_at": "2026-09-10T14:49:17.655322+00:00",
         "kev": {
             "known_exploited": true,
             "date_added": "2026-08-31",
@@ -728,7 +728,7 @@
             "source_url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json"
         },
         "exploitation_status": "KNOWN_EXPLOITED",
-        "kev_checked_at": "2026-09-10T14:32:12.985504+00:00"
+        "kev_checked_at": "2026-09-10T14:49:18.996636+00:00"
     },
     {
         "cve_id": "CVE-2026-82078",
@@ -757,7 +757,7 @@
             "Source evidence descriptions are available",
             "Valid CVE identifier is present"
         ],
-        "generated_at": "2026-09-10T14:32:11.528863+00:00",
+        "generated_at": "2026-09-10T14:49:17.655342+00:00",
         "kev": {
             "known_exploited": true,
             "date_added": "2026-08-31",
@@ -771,7 +771,7 @@
             "source_url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json"
         },
         "exploitation_status": "KNOWN_EXPLOITED",
-        "kev_checked_at": "2026-09-10T14:32:12.985511+00:00"
+        "kev_checked_at": "2026-09-10T14:49:18.996644+00:00"
     },
     {
         "cve_id": "CVE-2023-49105",
@@ -800,7 +800,7 @@
             "Source evidence descriptions are available",
             "Valid CVE identifier is present"
         ],
-        "generated_at": "2026-09-10T14:32:11.528995+00:00",
+        "generated_at": "2026-09-10T14:49:17.655362+00:00",
         "kev": {
             "known_exploited": true,
             "date_added": "2026-08-27",
@@ -814,7 +814,7 @@
             "source_url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json"
         },
         "exploitation_status": "KNOWN_EXPLOITED",
-        "kev_checked_at": "2026-09-10T14:32:12.985515+00:00"
+        "kev_checked_at": "2026-09-10T14:49:18.996648+00:00"
     },
     {
         "cve_id": "CVE-2026-53362",
@@ -843,7 +843,7 @@
             "Source evidence descriptions are available",
             "Valid CVE identifier is present"
         ],
-        "generated_at": "2026-09-10T14:32:11.529135+00:00",
+        "generated_at": "2026-09-10T14:49:17.655381+00:00",
         "kev": {
             "known_exploited": true,
             "date_added": "2026-08-27",
@@ -857,7 +857,7 @@
             "source_url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json"
         },
         "exploitation_status": "KNOWN_EXPLOITED",
-        "kev_checked_at": "2026-09-10T14:32:12.985519+00:00"
+        "kev_checked_at": "2026-09-10T14:49:18.996652+00:00"
     },
     {
         "cve_id": "CVE-2026-66384",
@@ -886,7 +886,7 @@
             "Source evidence descriptions are available",
             "Valid CVE identifier is present"
         ],
-        "generated_at": "2026-09-10T14:32:11.529308+00:00",
+        "generated_at": "2026-09-10T14:49:17.655406+00:00",
         "kev": {
             "known_exploited": true,
             "date_added": "2026-08-27",
@@ -900,7 +900,7 @@
             "source_url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json"
         },
         "exploitation_status": "KNOWN_EXPLOITED",
-        "kev_checked_at": "2026-09-10T14:32:12.985523+00:00"
+        "kev_checked_at": "2026-09-10T14:49:18.996656+00:00"
     },
     {
         "cve_id": "CVE-2015-3246",
@@ -929,7 +929,7 @@
             "Source evidence descriptions are available",
             "Valid CVE identifier is present"
         ],
-        "generated_at": "2026-09-10T14:32:11.529439+00:00",
+        "generated_at": "2026-09-10T14:49:17.655426+00:00",
         "kev": {
             "known_exploited": true,
             "date_added": "2026-08-26",
@@ -943,7 +943,7 @@
             "source_url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json"
         },
         "exploitation_status": "KNOWN_EXPLOITED",
-        "kev_checked_at": "2026-09-10T14:32:12.985526+00:00"
+        "kev_checked_at": "2026-09-10T14:49:18.996660+00:00"
     },
     {
         "cve_id": "CVE-2015-5287",
@@ -972,7 +972,7 @@
             "Source evidence descriptions are available",
             "Valid CVE identifier is present"
         ],
-        "generated_at": "2026-09-10T14:32:11.529574+00:00",
+        "generated_at": "2026-09-10T14:49:17.655446+00:00",
         "kev": {
             "known_exploited": true,
             "date_added": "2026-08-26",
@@ -986,7 +986,7 @@
             "source_url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json"
         },
         "exploitation_status": "KNOWN_EXPLOITED",
-        "kev_checked_at": "2026-09-10T14:32:12.985530+00:00"
+        "kev_checked_at": "2026-09-10T14:49:18.996664+00:00"
     },
     {
         "cve_id": "CVE-2019-1068",
@@ -1015,7 +1015,7 @@
             "Source evidence descriptions are available",
             "Valid CVE identifier is present"
         ],
-        "generated_at": "2026-09-10T14:32:11.529706+00:00",
+        "generated_at": "2026-09-10T14:49:17.655465+00:00",
         "kev": {
             "known_exploited": true,
             "date_added": "2026-08-26",
@@ -1029,7 +1029,7 @@
             "source_url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json"
         },
         "exploitation_status": "KNOWN_EXPLOITED",
-        "kev_checked_at": "2026-09-10T14:32:12.985534+00:00"
+        "kev_checked_at": "2026-09-10T14:49:18.996668+00:00"
     },
     {
         "cve_id": "CVE-2021-23758",
@@ -1058,7 +1058,7 @@
             "Source evidence descriptions are available",
             "Valid CVE identifier is present"
         ],
-        "generated_at": "2026-09-10T14:32:11.529838+00:00",
+        "generated_at": "2026-09-10T14:49:17.655485+00:00",
         "kev": {
             "known_exploited": true,
             "date_added": "2026-08-26",
@@ -1072,7 +1072,7 @@
             "source_url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json"
         },
         "exploitation_status": "KNOWN_EXPLOITED",
-        "kev_checked_at": "2026-09-10T14:32:12.985541+00:00"
+        "kev_checked_at": "2026-09-10T14:49:18.996678+00:00"
     },
     {
         "cve_id": "CVE-2022-0995",
@@ -1101,7 +1101,7 @@
             "Source evidence descriptions are available",
             "Valid CVE identifier is present"
         ],
-        "generated_at": "2026-09-10T14:32:11.529970+00:00",
+        "generated_at": "2026-09-10T14:49:17.655504+00:00",
         "kev": {
             "known_exploited": true,
             "date_added": "2026-08-26",
@@ -1115,7 +1115,7 @@
             "source_url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json"
         },
         "exploitation_status": "KNOWN_EXPLOITED",
-        "kev_checked_at": "2026-09-10T14:32:12.985549+00:00"
+        "kev_checked_at": "2026-09-10T14:49:18.996683+00:00"
     },
     {
         "cve_id": "CVE-2026-8452",
@@ -1144,7 +1144,7 @@
             "Source evidence descriptions are available",
             "Valid CVE identifier is present"
         ],
-        "generated_at": "2026-09-10T14:32:11.530156+00:00",
+        "generated_at": "2026-09-10T14:49:17.655524+00:00",
         "kev": {
             "known_exploited": true,
             "date_added": "2026-08-26",
@@ -1158,6 +1158,6 @@
             "source_url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json"
         },
         "exploitation_status": "KNOWN_EXPLOITED",
-        "kev_checked_at": "2026-09-10T14:32:12.985556+00:00"
+        "kev_checked_at": "2026-09-10T14:49:18.996690+00:00"
     }
 ]

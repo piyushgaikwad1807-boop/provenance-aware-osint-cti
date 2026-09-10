@@ -2089,3 +2089,366 @@ Time-Based Analysis
 ```
 
 This creates a foundation for future temporal analysis, experimental evaluation, and research-paper results.
+
+# Day 17 - CTI Trend Analysis and Historical Visualization
+
+## Objective
+
+Day 17 introduces time-based analysis of the historical CTI snapshots created during Day 16.
+
+The purpose is to analyze how the project's CTI dataset and evidence metrics change across multiple collection runs.
+
+This extends the project from static CTI analysis toward temporal analysis.
+
+---
+
+## Day 17 Architecture
+
+The workflow is:
+
+```text
+Historical Snapshots
+        ↓
+Metric Extraction
+        ↓
+Historical Metrics
+        ↓
+Trend Analysis
+        ↓
+Visualization
+```
+
+---
+
+## Historical Data Source
+
+The historical snapshots are stored in:
+
+```text
+data/history/
+```
+
+Each snapshot represents the state of the CTI dataset at a particular collection time.
+
+---
+
+## Trend Analysis Script
+
+The main analysis script is:
+
+```text
+src/trend_analysis.py
+```
+
+It processes all files matching:
+
+```text
+cti_snapshot_*.json
+```
+
+from:
+
+```text
+data/history/
+```
+
+The resulting historical metrics are saved to:
+
+```text
+data/processed/historical_metrics.json
+```
+
+---
+
+## Historical Metrics
+
+The system extracts the following metrics from each snapshot:
+
+* Total CVEs
+* Known exploited vulnerabilities
+* Corroborated records
+* NVD availability
+* Average confidence
+* NVD coverage rate
+* KEV match rate
+* Corroboration rate
+
+---
+
+## NVD Coverage
+
+NVD coverage is calculated as:
+
+```text
+NVD Available Records
+--------------------- × 100
+Total Records
+```
+
+This measures the proportion of project records containing NVD information at the time of the snapshot.
+
+---
+
+## KEV Match Rate
+
+The KEV match rate is calculated as:
+
+```text
+Known Exploited Records
+----------------------- × 100
+Total Records
+```
+
+The value represents the proportion of collected CVEs that matched the CISA KEV catalog during the collection.
+
+A CVE not present in the KEV catalog should not be interpreted as proof that the vulnerability has never been exploited.
+
+---
+
+## Corroboration Rate
+
+The corroboration rate is calculated as:
+
+```text
+Corroborated Records
+-------------------- × 100
+Total Records
+```
+
+The current project considers records corroborated when multiple supporting sources are present according to the project's provenance model.
+
+---
+
+## Average Confidence
+
+The system calculates the average project-defined confidence score across the records in each historical snapshot.
+
+The confidence score represents evidence strength under the project's heuristic model.
+
+It is not a statistical probability.
+
+---
+
+## Historical Visualization
+
+Day 17 introduces:
+
+```text
+src/trend_dashboard.py
+```
+
+The dashboard reads:
+
+```text
+data/processed/historical_metrics.json
+```
+
+and displays historical trends.
+
+---
+
+## Trend Dashboard
+
+The Day 17 dashboard provides:
+
+* Historical CTI metrics table
+* CVEs observed over time
+* Known exploited vulnerabilities over time
+* NVD coverage over time
+* Corroboration rate over time
+* Average confidence over time
+
+The dashboard can be started using:
+
+```bash
+streamlit run src/trend_dashboard.py
+```
+
+---
+
+## Original CTI Dashboard
+
+The original CTI dashboard remains available:
+
+```bash
+streamlit run src/dashboard.py
+```
+
+The original dashboard focuses on individual CTI records.
+
+The Day 17 dashboard focuses on historical and temporal analysis.
+
+---
+
+## Temporal CTI Analysis
+
+The project can now represent CTI observations across time:
+
+```text
+Snapshot 1
+    ↓
+Snapshot 2
+    ↓
+Snapshot 3
+    ↓
+Snapshot 4
+    ↓
+Trend Analysis
+```
+
+This makes it possible to study changes in the collected intelligence over multiple collection periods.
+
+---
+
+## Research Questions
+
+Historical analysis enables several future research questions.
+
+### Question 1
+
+How does the number of observed CVEs change over time?
+
+### Question 2
+
+How does NVD enrichment coverage change over time?
+
+### Question 3
+
+How frequently do collected CVEs match the CISA KEV catalog?
+
+### Question 4
+
+Does multi-source corroboration remain stable over time?
+
+### Question 5
+
+How does the average evidence confidence change over time?
+
+---
+
+## Research Importance
+
+A CTI system should ideally be evaluated across multiple observations rather than a single dataset.
+
+Historical snapshots allow the project to preserve previous system states and compare them.
+
+This provides a foundation for longitudinal CTI analysis.
+
+---
+
+## Experimental Evaluation
+
+The historical dataset can later support experiments such as:
+
+```text
+Collection Period
+       ↓
+Dataset Size
+       ↓
+Source Coverage
+       ↓
+KEV Matching
+       ↓
+Corroboration
+       ↓
+Confidence
+```
+
+The resulting measurements can be used in the experimental evaluation section of the future research paper.
+
+---
+
+## Important Limitation
+
+Historical snapshots represent the information collected by this project from its selected sources.
+
+They do not represent the complete global vulnerability landscape.
+
+The results may be affected by:
+
+* Source availability
+* Collection frequency
+* API rate limits
+* Source updates
+* Missing data
+* Network failures
+* Changes in source content
+
+Therefore, historical trends should be interpreted as trends within the project's observation process.
+
+---
+
+## Day 17 Automation
+
+The trend-analysis stage has been added to the automated pipeline.
+
+The pipeline now performs:
+
+```text
+1. CISA Collection
+2. Advisory Collection
+3. CVE Extraction
+4. CTI Record Creation
+5. Normalization
+6. Duplicate Detection
+7. NVD Enrichment
+8. Risk Analysis
+9. Provenance
+10. Confidence Scoring
+11. KEV Collection
+12. KEV Matching
+13. Final CTI Dataset
+14. Validation
+15. Evaluation
+16. Historical Snapshot
+17. Historical Trend Analysis
+```
+
+The entire workflow can be executed using:
+
+```bash
+python src/run_pipeline.py
+```
+
+---
+
+## Day 17 Learning Outcomes
+
+Day 17 introduced:
+
+* Historical CTI analysis
+* Temporal datasets
+* Trend metrics
+* Longitudinal analysis
+* Time-based visualization
+* Historical evidence comparison
+* Research-oriented data visualization
+* Experimental metric tracking
+
+---
+
+## Day 17 Conclusion
+
+Day 17 extends the project from a static CTI processing system into a time-aware CTI analysis system.
+
+The architecture is now:
+
+```text
+OSINT Collection
+      ↓
+CTI Processing
+      ↓
+Evidence Correlation
+      ↓
+Validation
+      ↓
+Evaluation
+      ↓
+Historical Snapshots
+      ↓
+Temporal Analysis
+      ↓
+Research Visualization
+```
+
+This provides a foundation for future experiments involving CTI changes over time and strengthens the project's preparation for an IEEE-style research paper.

@@ -26,7 +26,7 @@
             "Source evidence descriptions are available",
             "Valid CVE identifier is present"
         ],
-        "generated_at": "2026-09-10T14:32:11.526208+00:00"
+        "generated_at": "2026-09-10T14:49:17.654917+00:00"
     },
     {
         "cve_id": "CVE-2026-19490",
@@ -55,7 +55,7 @@
             "Source evidence descriptions are available",
             "Valid CVE identifier is present"
         ],
-        "generated_at": "2026-09-10T14:32:11.526528+00:00"
+        "generated_at": "2026-09-10T14:49:17.654999+00:00"
     },
     {
         "cve_id": "CVE-2026-20079",
@@ -84,7 +84,7 @@
             "Source evidence descriptions are available",
             "Valid CVE identifier is present"
         ],
-        "generated_at": "2026-09-10T14:32:11.526724+00:00"
+        "generated_at": "2026-09-10T14:49:17.655029+00:00"
     },
     {
         "cve_id": "CVE-2026-87491",
@@ -113,7 +113,7 @@
             "Source evidence descriptions are available",
             "Valid CVE identifier is present"
         ],
-        "generated_at": "2026-09-10T14:32:11.526877+00:00"
+        "generated_at": "2026-09-10T14:49:17.655052+00:00"
     },
     {
         "cve_id": "CVE-2026-75650",
@@ -142,7 +142,7 @@
             "Source evidence descriptions are available",
             "Valid CVE identifier is present"
         ],
-        "generated_at": "2026-09-10T14:32:11.527019+00:00"
+        "generated_at": "2026-09-10T14:49:17.655072+00:00"
     },
     {
         "cve_id": "CVE-2026-81963",
@@ -171,7 +171,7 @@
             "Source evidence descriptions are available",
             "Valid CVE identifier is present"
         ],
-        "generated_at": "2026-09-10T14:32:11.527192+00:00"
+        "generated_at": "2026-09-10T14:49:17.655093+00:00"
     },
     {
         "cve_id": "CVE-2026-85880",
@@ -200,7 +200,7 @@
             "Source evidence descriptions are available",
             "Valid CVE identifier is present"
         ],
-        "generated_at": "2026-09-10T14:32:11.527335+00:00"
+        "generated_at": "2026-09-10T14:49:17.655113+00:00"
     },
     {
         "cve_id": "CVE-2026-86218",
@@ -229,7 +229,7 @@
             "Source evidence descriptions are available",
             "Valid CVE identifier is present"
         ],
-        "generated_at": "2026-09-10T14:32:11.527470+00:00"
+        "generated_at": "2026-09-10T14:49:17.655133+00:00"
     },
     {
         "cve_id": "CVE-2026-85046",
@@ -258,7 +258,7 @@
             "Source evidence descriptions are available",
             "Valid CVE identifier is present"
         ],
-        "generated_at": "2026-09-10T14:32:11.527609+00:00"
+        "generated_at": "2026-09-10T14:49:17.655153+00:00"
     },
     {
         "cve_id": "CVE-2026-48710",
@@ -287,7 +287,7 @@
             "Source evidence descriptions are available",
             "Valid CVE identifier is present"
         ],
-        "generated_at": "2026-09-10T14:32:11.527745+00:00"
+        "generated_at": "2026-09-10T14:49:17.655173+00:00"
     },
     {
         "cve_id": "CVE-2026-49869",
@@ -316,7 +316,7 @@
             "Source evidence descriptions are available",
             "Valid CVE identifier is present"
         ],
-        "generated_at": "2026-09-10T14:32:11.527878+00:00"
+        "generated_at": "2026-09-10T14:49:17.655193+00:00"
     },
     {
         "cve_id": "CVE-2026-59822",
@@ -345,7 +345,7 @@
             "Source evidence descriptions are available",
             "Valid CVE identifier is present"
         ],
-        "generated_at": "2026-09-10T14:32:11.528037+00:00"
+        "generated_at": "2026-09-10T14:49:17.655214+00:00"
     },
     {
         "cve_id": "CVE-2026-82329",
@@ -374,7 +374,7 @@
             "Source evidence descriptions are available",
             "Valid CVE identifier is present"
         ],
-        "generated_at": "2026-09-10T14:32:11.528173+00:00"
+        "generated_at": "2026-09-10T14:49:17.655241+00:00"
     },
     {
         "cve_id": "CVE-2026-83548",
@@ -403,7 +403,7 @@
             "Source evidence descriptions are available",
             "Valid CVE identifier is present"
         ],
-        "generated_at": "2026-09-10T14:32:11.528308+00:00"
+        "generated_at": "2026-09-10T14:49:17.655263+00:00"
     },
     {
         "cve_id": "CVE-2026-83549",
@@ -432,7 +432,7 @@
             "Source evidence descriptions are available",
             "Valid CVE identifier is present"
         ],
-        "generated_at": "2026-09-10T14:32:11.528441+00:00"
+        "generated_at": "2026-09-10T14:49:17.655283+00:00"
     },
     {
         "cve_id": "CVE-2026-9586",
@@ -461,7 +461,7 @@
             "Source evidence descriptions are available",
             "Valid CVE identifier is present"
         ],
-        "generated_at": "2026-09-10T14:32:11.528593+00:00"
+        "generated_at": "2026-09-10T14:49:17.655302+00:00"
     },
     {
         "cve_id": "CVE-2026-81578",
@@ -490,7 +490,7 @@
             "Source evidence descriptions are available",
             "Valid CVE identifier is present"
         ],
-        "generated_at": "2026-09-10T14:32:11.528731+00:00"
+        "generated_at": "2026-09-10T14:49:17.655322+00:00"
     },
     {
         "cve_id": "CVE-2026-82078",
@@ -519,7 +519,7 @@
             "Source evidence descriptions are available",
             "Valid CVE identifier is present"
         ],
-        "generated_at": "2026-09-10T14:32:11.528863+00:00"
+        "generated_at": "2026-09-10T14:49:17.655342+00:00"
     },
     {
         "cve_id": "CVE-2023-49105",
@@ -548,7 +548,7 @@
             "Source evidence descriptions are available",
             "Valid CVE identifier is present"
         ],
-        "generated_at": "2026-09-10T14:32:11.528995+00:00"
+        "generated_at": "2026-09-10T14:49:17.655362+00:00"
     },
     {
         "cve_id": "CVE-2026-53362",
@@ -577,7 +577,7 @@
             "Source evidence descriptions are available",
             "Valid CVE identifier is present"
         ],
-        "generated_at": "2026-09-10T14:32:11.529135+00:00"
+        "generated_at": "2026-09-10T14:49:17.655381+00:00"
     },
     {
         "cve_id": "CVE-2026-66384",
@@ -606,7 +606,7 @@
             "Source evidence descriptions are available",
             "Valid CVE identifier is present"
         ],
-        "generated_at": "2026-09-10T14:32:11.529308+00:00"
+        "generated_at": "2026-09-10T14:49:17.655406+00:00"
     },
     {
         "cve_id": "CVE-2015-3246",
@@ -635,7 +635,7 @@
             "Source evidence descriptions are available",
             "Valid CVE identifier is present"
         ],
-        "generated_at": "2026-09-10T14:32:11.529439+00:00"
+        "generated_at": "2026-09-10T14:49:17.655426+00:00"
     },
     {
         "cve_id": "CVE-2015-5287",
@@ -664,7 +664,7 @@
             "Source evidence descriptions are available",
             "Valid CVE identifier is present"
         ],
-        "generated_at": "2026-09-10T14:32:11.529574+00:00"
+        "generated_at": "2026-09-10T14:49:17.655446+00:00"
     },
     {
         "cve_id": "CVE-2019-1068",
@@ -693,7 +693,7 @@
             "Source evidence descriptions are available",
             "Valid CVE identifier is present"
         ],
-        "generated_at": "2026-09-10T14:32:11.529706+00:00"
+        "generated_at": "2026-09-10T14:49:17.655465+00:00"
     },
     {
         "cve_id": "CVE-2021-23758",
@@ -722,7 +722,7 @@
             "Source evidence descriptions are available",
             "Valid CVE identifier is present"
         ],
-        "generated_at": "2026-09-10T14:32:11.529838+00:00"
+        "generated_at": "2026-09-10T14:49:17.655485+00:00"
     },
     {
         "cve_id": "CVE-2022-0995",
@@ -751,7 +751,7 @@
             "Source evidence descriptions are available",
             "Valid CVE identifier is present"
         ],
-        "generated_at": "2026-09-10T14:32:11.529970+00:00"
+        "generated_at": "2026-09-10T14:49:17.655504+00:00"
     },
     {
         "cve_id": "CVE-2026-8452",
@@ -780,6 +780,6 @@
             "Source evidence descriptions are available",
             "Valid CVE identifier is present"
         ],
-        "generated_at": "2026-09-10T14:32:11.530156+00:00"
+        "generated_at": "2026-09-10T14:49:17.655524+00:00"
     }
 ]
