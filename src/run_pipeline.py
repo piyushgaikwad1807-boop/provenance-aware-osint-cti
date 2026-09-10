@@ -87,7 +87,22 @@ PIPELINE_STEPS = [
     (
         "Validate final CTI dataset",
         "src/validate_cti.py"
-    )
+    ),
+    
+    (
+        "Build final CTI dataset",
+        "src/build_final_cti.py"
+    ),
+
+    (
+        "Validate final CTI dataset", 
+        "src/validate_cti.py"
+    ),
+
+    (
+        "Evaluate CTI dataset", 
+        "src/evaluate_cti.py"
+    ),
 ]
 
 

@@ -1410,3 +1410,373 @@ Visualization
 Day 14 completes the initial automation layer by providing a single entry point for executing the major CTI processing stages.
 
 The project is now ready for the next phase: improving testing, evaluation, correlation methodology, and research documentation.
+
+# Day 15 - CTI Evaluation and Research Metrics
+
+## Objective
+
+Day 15 introduces an evaluation layer for the automated CTI pipeline.
+
+The objective is to measure the quality, completeness, coverage, and corroboration of the generated CTI dataset.
+
+The evaluation layer helps transform the project from a data-processing prototype into a system that can be quantitatively evaluated.
+
+---
+
+## Evaluation Pipeline
+
+The Day 15 workflow is:
+
+```text
+Final CTI Dataset
+        ↓
+Validation
+        ↓
+Evaluation
+        ↓
+Research Metrics
+```
+
+The evaluation process reads:
+
+```text
+data/processed/final_cti.json
+```
+
+and, when available:
+
+```text
+data/processed/validation_report.json
+```
+
+---
+
+## Evaluation Script
+
+The main Day 15 script is:
+
+```text
+src/evaluate_cti.py
+```
+
+It generates:
+
+```text
+data/processed/evaluation_report.json
+```
+
+---
+
+## Evaluation Metrics
+
+The system calculates several metrics.
+
+### 1. Total Records
+
+The total number of CTI records contained in the final dataset.
+
+---
+
+### 2. Unique CVEs
+
+The number of unique CVE identifiers.
+
+This helps identify whether duplicate records are present.
+
+---
+
+### 3. Valid CVE Rate
+
+The percentage of records containing a valid CVE identifier.
+
+The validation pattern used by the project is:
+
+```text
+CVE-\d{4}-\d{4,7}
+```
+
+---
+
+### 4. NVD Coverage
+
+NVD coverage measures the percentage of CTI records for which NVD information is available.
+
+```text
+NVD Coverage =
+NVD Available Records / Total Records × 100
+```
+
+---
+
+### 5. CVSS Coverage
+
+CVSS coverage measures the percentage of records containing a valid CVSS score.
+
+The project expects CVSS values within the range:
+
+```text
+0.0 - 10.0
+```
+
+---
+
+### 6. Provenance Coverage
+
+Provenance coverage measures how many CTI records contain source provenance information.
+
+The provenance layer records supporting information from sources such as:
+
+```text
+CISA
+NVD
+```
+
+---
+
+### 7. Corroboration Rate
+
+Corroboration measures the proportion of records supported by multiple sources according to the current project model.
+
+The current model considers a record corroborated when multiple supporting sources are present.
+
+```text
+Corroboration Rate =
+Corroborated Records / Total Records × 100
+```
+
+---
+
+### 8. Confidence Coverage
+
+Confidence coverage measures how many records contain a valid project-defined confidence score.
+
+Confidence is an evidence-strength heuristic and should not be interpreted as a statistical probability.
+
+---
+
+### 9. KEV Match Rate
+
+KEV match rate measures the proportion of project CVEs found in the CISA Known Exploited Vulnerabilities catalog.
+
+```text
+KEV Match Rate =
+Known Exploited Records / Total Records × 100
+```
+
+A KEV match indicates that the CVE was found in the CISA KEV catalog.
+
+A CVE not found in KEV should not be interpreted as proof that the vulnerability has never been exploited.
+
+---
+
+### 10. Data Completeness Rate
+
+Data completeness measures the percentage of records containing the major fields required by the current project model.
+
+The current completeness check considers:
+
+* Valid CVE
+* NVD information
+* Provenance
+* Confidence
+* Valid exploitation status
+
+```text
+Data Completeness =
+Complete Records / Total Records × 100
+```
+
+---
+
+## Evaluation Output
+
+The evaluation results are stored in:
+
+```text
+data/processed/evaluation_report.json
+```
+
+The report contains:
+
+* Total records
+* Unique CVEs
+* Duplicate records
+* Valid CVEs
+* NVD coverage
+* CVSS coverage
+* Provenance coverage
+* Corroboration rate
+* Confidence coverage
+* Known exploited vulnerabilities
+* KEV match rate
+* Data completeness
+* Validation status
+* Validation rate
+
+---
+
+## Day 15 Automation
+
+The evaluation stage was added to the automated pipeline.
+
+The complete processing sequence is now:
+
+```text
+1. Collect CISA advisory listings
+2. Collect full CISA advisories
+3. Extract CVE identifiers
+4. Build CTI records
+5. Normalize CTI records
+6. Check duplicate CVEs
+7. Enrich CTI with NVD
+8. Analyze vulnerability risk
+9. Build provenance records
+10. Generate confidence scores
+11. Collect CISA KEV data
+12. Match CTI records with KEV
+13. Build final CTI dataset
+14. Validate final CTI dataset
+15. Evaluate CTI dataset
+```
+
+The complete workflow can be executed with:
+
+```bash
+python src/run_pipeline.py
+```
+
+---
+
+## Research Importance
+
+The evaluation layer is important for future research because a CTI system should not only collect and process information.
+
+It should also provide measurable evidence about the quality of its output.
+
+The evaluation metrics provide a foundation for the future research evaluation section.
+
+For example:
+
+```text
+Dataset Size
+NVD Coverage
+KEV Coverage
+Corroboration Rate
+Confidence Coverage
+Data Completeness
+Validation Rate
+```
+
+These measurements can later be compared across different collection periods, source combinations, or system versions.
+
+---
+
+## Reproducibility
+
+The evaluation results can be regenerated whenever the pipeline is executed.
+
+This provides a reproducible workflow:
+
+```text
+Source Data
+    ↓
+Automated Processing
+    ↓
+Final CTI Dataset
+    ↓
+Validation
+    ↓
+Evaluation Metrics
+```
+
+This is useful for future experiments and research documentation.
+
+---
+
+## Current Research Direction
+
+The project is progressing toward an evaluation-based CTI research system.
+
+The current architecture separates:
+
+```text
+Severity
+    ↓
+CVSS / NVD
+
+Exploitation
+    ↓
+CISA KEV
+
+Evidence
+    ↓
+CISA + NVD
+
+Confidence
+    ↓
+Project-defined evidence model
+
+Validation
+    ↓
+Data quality checks
+
+Evaluation
+    ↓
+Quantitative research metrics
+```
+
+Keeping these concepts separate makes the system easier to analyze and explain.
+
+---
+
+## Day 15 Learning Outcomes
+
+Day 15 introduced:
+
+* CTI evaluation
+* Research metrics
+* Dataset coverage
+* Data completeness
+* Corroboration measurement
+* Validation measurement
+* Reproducibility metrics
+* Automated evaluation
+* Quantitative system analysis
+
+The project can now generate not only CTI intelligence but also measurements describing the quality and coverage of the generated dataset.
+
+---
+
+## Day 15 Conclusion
+
+Day 15 adds an evaluation layer to the automated CTI system.
+
+The system now performs:
+
+```text
+Collection
+    ↓
+Extraction
+    ↓
+Normalization
+    ↓
+Enrichment
+    ↓
+Correlation
+    ↓
+Provenance
+    ↓
+Confidence
+    ↓
+Exploitation Analysis
+    ↓
+Risk Analysis
+    ↓
+Validation
+    ↓
+Evaluation
+    ↓
+Visualization
+```
+
+This provides a stronger foundation for future experimental evaluation and preparation of an IEEE-style research paper.

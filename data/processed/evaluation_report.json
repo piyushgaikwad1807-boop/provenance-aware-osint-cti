@@ -1,0 +1,27 @@
+{
+  "evaluation_summary": {
+    "total_records": 27,
+    "unique_cves": 27,
+    "duplicate_records": 0,
+    "valid_cves": 27,
+    "valid_cve_rate": 100.0,
+    "nvd_available": 27,
+    "nvd_coverage_rate": 100.0,
+    "cvss_available": 26,
+    "cvss_coverage_rate": 96.3,
+    "provenance_available": 27,
+    "provenance_coverage_rate": 100.0,
+    "corroborated_records": 27,
+    "corroboration_rate": 100.0,
+    "confidence_available": 27,
+    "confidence_coverage_rate": 100.0,
+    "known_exploited": 27,
+    "kev_match_rate": 100.0,
+    "kev_status_available": 27,
+    "kev_status_coverage_rate": 100.0,
+    "complete_records": 27,
+    "data_completeness_rate": 100.0,
+    "validation_status": "PASS",
+    "validation_rate": 100.0
+  }
+}
