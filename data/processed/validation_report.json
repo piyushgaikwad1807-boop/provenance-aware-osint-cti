@@ -6,7 +6,7 @@
     "failed_records": 0,
     "validation_rate": 100.0,
     "duplicate_cves": [],
-    "warning_count": 1
+    "warning_count": 0
   },
   "checks": [
     "CVE format validation",
@@ -76,9 +76,7 @@
       "cve_id": "CVE-2026-19490",
       "status": "PASS",
       "errors": [],
-      "warnings": [
-        "CVSS score unavailable"
-      ]
+      "warnings": []
     },
     {
       "record_index": 9,

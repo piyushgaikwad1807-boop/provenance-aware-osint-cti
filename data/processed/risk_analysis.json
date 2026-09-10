@@ -6,7 +6,7 @@
         "severity": "HIGH",
         "risk_level": "HIGH",
         "published": "2026-01-13T17:15:56.910",
-        "last_modified": "2026-09-10T04:17:39.200",
+        "last_modified": "2026-09-10T12:47:59.933",
         "cisa_advisory": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
         "advisory_url": "https://www.cisa.gov/news-events/alerts/2026/09/09/cisa-adds-four-known-exploited-vulnerabilities-catalog",
         "enrichment_status": "success"
@@ -14,11 +14,11 @@
     {
         "cve_id": "CVE-2026-19490",
         "nvd_available": true,
-        "cvss_score": null,
-        "severity": null,
-        "risk_level": "UNKNOWN",
+        "cvss_score": 9.8,
+        "severity": "CRITICAL",
+        "risk_level": "CRITICAL",
         "published": "2026-08-19T13:17:45.000",
-        "last_modified": "2026-09-10T04:17:48.967",
+        "last_modified": "2026-09-10T12:48:10.453",
         "cisa_advisory": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
         "advisory_url": "https://www.cisa.gov/news-events/alerts/2026/09/09/cisa-adds-four-known-exploited-vulnerabilities-catalog",
         "enrichment_status": "success"
@@ -30,7 +30,7 @@
         "severity": "CRITICAL",
         "risk_level": "CRITICAL",
         "published": "2026-03-04T18:16:24.230",
-        "last_modified": "2026-09-10T04:17:50.803",
+        "last_modified": "2026-09-10T12:48:17.580",
         "cisa_advisory": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
         "advisory_url": "https://www.cisa.gov/news-events/alerts/2026/09/09/cisa-adds-four-known-exploited-vulnerabilities-catalog",
         "enrichment_status": "success"
@@ -42,7 +42,7 @@
         "severity": "HIGH",
         "risk_level": "HIGH",
         "published": "2026-09-09T01:17:05.887",
-        "last_modified": "2026-09-10T04:18:21.813",
+        "last_modified": "2026-09-10T12:49:02.630",
         "cisa_advisory": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
         "advisory_url": "https://www.cisa.gov/news-events/alerts/2026/09/09/cisa-adds-four-known-exploited-vulnerabilities-catalog",
         "enrichment_status": "success"

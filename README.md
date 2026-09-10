@@ -1780,3 +1780,312 @@ Visualization
 ```
 
 This provides a stronger foundation for future experimental evaluation and preparation of an IEEE-style research paper.
+
+# Day 16 - Historical CTI Snapshots and Time-Based Analysis
+
+## Objective
+
+Day 16 introduces historical CTI data preservation.
+
+Previously, each pipeline execution generated a new final CTI dataset that could replace the previous state.
+
+The Day 16 implementation preserves each successful pipeline result as a timestamped historical snapshot.
+
+This allows the project to analyze how CTI information changes across different collection periods.
+
+---
+
+## Historical Data Architecture
+
+The Day 16 workflow is:
+
+```text
+Automated CTI Pipeline
+        ↓
+Final CTI Dataset
+        ↓
+Evaluation
+        ↓
+Historical Snapshot
+        ↓
+data/history/
+        ↓
+Historical Analysis
+```
+
+---
+
+## Historical Snapshot Script
+
+The snapshot generator is:
+
+```text
+src/save_snapshot.py
+```
+
+It reads:
+
+```text
+data/processed/final_cti.json
+```
+
+and:
+
+```text
+data/processed/evaluation_report.json
+```
+
+The generated snapshot is stored in:
+
+```text
+data/history/
+```
+
+---
+
+## Snapshot Naming
+
+Snapshots use a timestamp-based filename.
+
+Example:
+
+```text
+cti_snapshot_20260910_194500.json
+```
+
+The timestamp provides a unique identifier for each collection run.
+
+---
+
+## Snapshot Contents
+
+Each snapshot contains:
+
+* Snapshot ID
+* Creation timestamp
+* Total record count
+* Complete CTI records
+* Evaluation metrics
+
+Logical structure:
+
+```text
+Snapshot
+│
+├── snapshot_id
+├── created_at
+│
+├── dataset
+│   ├── total_records
+│   └── records
+│
+└── evaluation
+    ├── coverage metrics
+    ├── corroboration metrics
+    ├── completeness metrics
+    └── validation information
+```
+
+---
+
+## Historical Analysis
+
+The historical analysis script is:
+
+```text
+src/historical_analysis.py
+```
+
+It loads all available historical snapshots and calculates summary metrics for each snapshot.
+
+The current analysis reports:
+
+* Total CVEs
+* Known exploited vulnerabilities
+* Corroborated records
+* NVD availability
+* Average confidence
+
+---
+
+## Historical Metrics
+
+The system can now compare metrics across collection runs.
+
+Example:
+
+```text
+Snapshot A
+Total CVEs: 17
+Known exploited: X
+Corroborated: X
+NVD available: X
+Average confidence: X.XXX
+
+Snapshot B
+Total CVEs: 20
+Known exploited: X
+Corroborated: X
+NVD available: X
+Average confidence: X.XXX
+```
+
+The values depend on the actual data collected during each pipeline execution.
+
+---
+
+## Reproducible Historical Data
+
+Each pipeline execution can produce a new historical snapshot.
+
+This means that the project no longer depends only on the current state of the CTI dataset.
+
+Instead:
+
+```text
+Collection 1 → Snapshot 1
+Collection 2 → Snapshot 2
+Collection 3 → Snapshot 3
+Collection 4 → Snapshot 4
+```
+
+Historical snapshots can later be used for experiments and trend analysis.
+
+---
+
+## Day 16 Automation
+
+The historical snapshot stage was added to the automated pipeline.
+
+The complete workflow is now:
+
+```text
+1. Collect CISA advisory listings
+2. Collect full CISA advisories
+3. Extract CVE identifiers
+4. Build CTI records
+5. Normalize CTI records
+6. Check duplicate CVEs
+7. Enrich CTI with NVD
+8. Analyze vulnerability risk
+9. Build provenance records
+10. Generate confidence scores
+11. Collect CISA KEV data
+12. Match CTI records with KEV
+13. Build final CTI dataset
+14. Validate final CTI dataset
+15. Evaluate CTI dataset
+16. Save historical CTI snapshot
+```
+
+The complete pipeline can be executed using:
+
+```bash
+python src/run_pipeline.py
+```
+
+---
+
+## Research Importance
+
+Historical snapshots provide an important foundation for CTI research.
+
+Cybersecurity intelligence is dynamic.
+
+The state of vulnerability information can change over time because:
+
+* New CVEs are published.
+* Existing CVEs receive additional enrichment.
+* Vulnerabilities can become listed in KEV.
+* Vulnerability metadata can change.
+* Evidence from multiple sources can become available.
+* Confidence values can change as supporting evidence changes.
+
+Therefore, storing historical snapshots allows the system to study changes instead of only analyzing one static dataset.
+
+---
+
+## Possible Research Questions
+
+Historical data enables future research questions such as:
+
+### Question 1
+
+How does the number of observed vulnerabilities change over time?
+
+### Question 2
+
+How frequently do collected vulnerabilities become listed in the KEV catalog?
+
+### Question 3
+
+Does multi-source corroboration increase over time?
+
+### Question 4
+
+How does NVD enrichment coverage change across collection periods?
+
+### Question 5
+
+How does the project's evidence confidence change as additional source information becomes available?
+
+These questions can later become part of the experimental evaluation of the research paper.
+
+---
+
+## Important Limitation
+
+A historical snapshot represents the state of the collected data at a particular time.
+
+It does not necessarily represent the complete state of global vulnerability intelligence at that time.
+
+The system is limited by:
+
+* Available public sources
+* Collection frequency
+* API availability
+* Rate limiting
+* Source coverage
+* Data quality
+* Collection errors
+
+Therefore, historical results should be interpreted as observations from the project's selected data sources.
+
+---
+
+## Day 16 Learning Outcomes
+
+Day 16 introduced:
+
+* Historical data preservation
+* Timestamped snapshots
+* Time-based CTI analysis
+* Dataset versioning
+* Historical metrics
+* Reproducible data collection
+* Trend-analysis foundations
+* Temporal CTI research
+
+---
+
+## Day 16 Conclusion
+
+Day 16 extends the CTI system from a single-state analysis system into a time-aware architecture.
+
+The project can now preserve multiple CTI collection states:
+
+```text
+CTI Collection
+      ↓
+Final Dataset
+      ↓
+Evaluation
+      ↓
+Historical Snapshot
+      ↓
+Historical Dataset
+      ↓
+Time-Based Analysis
+```
+
+This creates a foundation for future temporal analysis, experimental evaluation, and research-paper results.

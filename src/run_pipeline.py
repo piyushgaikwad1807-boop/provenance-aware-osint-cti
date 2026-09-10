@@ -103,6 +103,18 @@ PIPELINE_STEPS = [
         "Evaluate CTI dataset", 
         "src/evaluate_cti.py"
     ),
+
+    (   "Validate final CTI dataset",
+        "src/validate_cti.py"
+    ),
+
+    (   "Evaluate CTI dataset",
+        "src/evaluate_cti.py"
+    ),
+
+    (   "Save CTI historical snapshot",
+        "src/save_snapshot.py"
+    ),
 ]
 
 

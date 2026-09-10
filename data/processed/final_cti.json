@@ -87,7 +87,7 @@
         },
         "pipeline": {
             "enriched": "success",
-            "generated_at": "2026-09-10T05:38:07.974095+00:00"
+            "generated_at": "2026-09-10T14:32:13.175136+00:00"
         }
     },
     {
@@ -174,7 +174,7 @@
         },
         "pipeline": {
             "enriched": "success",
-            "generated_at": "2026-09-10T05:38:07.974159+00:00"
+            "generated_at": "2026-09-10T14:32:13.175199+00:00"
         }
     },
     {
@@ -246,7 +246,7 @@
         },
         "pipeline": {
             "enriched": "success",
-            "generated_at": "2026-09-10T05:38:07.974170+00:00"
+            "generated_at": "2026-09-10T14:32:13.175214+00:00"
         }
     },
     {
@@ -323,7 +323,7 @@
         },
         "pipeline": {
             "enriched": "success",
-            "generated_at": "2026-09-10T05:38:07.974183+00:00"
+            "generated_at": "2026-09-10T14:32:13.175222+00:00"
         }
     },
     {
@@ -403,7 +403,7 @@
         },
         "pipeline": {
             "enriched": "success",
-            "generated_at": "2026-09-10T05:38:07.974193+00:00"
+            "generated_at": "2026-09-10T14:32:13.175238+00:00"
         }
     },
     {
@@ -478,7 +478,7 @@
         },
         "pipeline": {
             "enriched": "success",
-            "generated_at": "2026-09-10T05:38:07.974200+00:00"
+            "generated_at": "2026-09-10T14:32:13.175259+00:00"
         }
     },
     {
@@ -491,7 +491,7 @@
         "nvd": {
             "description": "A heap-based buffer overflow vulnerability in Fortinet FortiOS 7.6.0 through 7.6.3, FortiOS 7.4.0 through 7.4.8, FortiOS 7.2.0 through 7.2.11, FortiOS 7.0.0 through 7.0.17, FortiOS 6.4 all versions, FortiSwitchManager 7.2.0 through 7.2.6, FortiSwitchManager 7.0.0 through 7.0.5 allows attacker to execute unauthorized code or commands via specially crafted packets",
             "published": "2026-01-13T17:15:56.910",
-            "last_modified": "2026-09-10T04:17:39.200",
+            "last_modified": "2026-09-10T12:47:59.933",
             "cvss_score": 8.1,
             "severity": "HIGH",
             "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
@@ -551,7 +551,7 @@
         },
         "pipeline": {
             "enriched": "success",
-            "generated_at": "2026-09-10T05:38:07.974206+00:00"
+            "generated_at": "2026-09-10T14:32:13.175275+00:00"
         }
     },
     {
@@ -564,10 +564,10 @@
         "nvd": {
             "description": "Vulnerability in NetScaler ADC and NetScaler Gateway.\n\nThis issue affects ADC: from 14.1 through 73.32 and from 13.1 through 63.21; Gateway: from 14.1 through 73.32 and from 13.1 through 63.21.",
             "published": "2026-08-19T13:17:45.000",
-            "last_modified": "2026-09-10T04:17:48.967",
-            "cvss_score": null,
-            "severity": null,
-            "cvss_vector": null,
+            "last_modified": "2026-09-10T12:48:10.453",
+            "cvss_score": 9.8,
+            "severity": "CRITICAL",
+            "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
             "references": [
                 "https://support.citrix.com/support-home/kbsearch/article?articleNumber=CTX696939",
                 "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-19490"
@@ -616,13 +616,13 @@
             ]
         },
         "risk": {
-            "risk_level": "UNKNOWN",
-            "cvss_score": null,
-            "severity": null
+            "risk_level": "CRITICAL",
+            "cvss_score": 9.8,
+            "severity": "CRITICAL"
         },
         "pipeline": {
             "enriched": "success",
-            "generated_at": "2026-09-10T05:38:07.974219+00:00"
+            "generated_at": "2026-09-10T14:32:13.175302+00:00"
         }
     },
     {
@@ -635,7 +635,7 @@
         "nvd": {
             "description": "A vulnerability in the web interface of Cisco Secure Firewall Management Center (FMC) Software could allow an unauthenticated, remote attacker to bypass authentication and execute script files on an affected device to obtain root access to the underlying operating system.&nbsp;\r\n\r\nThis vulnerability is due to an improper system process that is created at boot time. An attacker could exploit this vulnerability by sending crafted HTTP requests to an affected device. A successful exploit could allow the attacker to execute a variety of scripts and commands that allow&nbsp;root access to the device.&nbsp;",
             "published": "2026-03-04T18:16:24.230",
-            "last_modified": "2026-09-10T04:17:50.803",
+            "last_modified": "2026-09-10T12:48:17.580",
             "cvss_score": 10.0,
             "severity": "CRITICAL",
             "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
@@ -695,7 +695,7 @@
         },
         "pipeline": {
             "enriched": "success",
-            "generated_at": "2026-09-10T05:38:07.974225+00:00"
+            "generated_at": "2026-09-10T14:32:13.175328+00:00"
         }
     },
     {
@@ -793,7 +793,7 @@
         },
         "pipeline": {
             "enriched": "success",
-            "generated_at": "2026-09-10T05:38:07.974231+00:00"
+            "generated_at": "2026-09-10T14:32:13.175342+00:00"
         }
     },
     {
@@ -865,7 +865,7 @@
         },
         "pipeline": {
             "enriched": "success",
-            "generated_at": "2026-09-10T05:38:07.974237+00:00"
+            "generated_at": "2026-09-10T14:32:13.175350+00:00"
         }
     },
     {
@@ -941,7 +941,7 @@
         },
         "pipeline": {
             "enriched": "success",
-            "generated_at": "2026-09-10T05:38:07.974246+00:00"
+            "generated_at": "2026-09-10T14:32:13.175379+00:00"
         }
     },
     {
@@ -1016,7 +1016,7 @@
         },
         "pipeline": {
             "enriched": "success",
-            "generated_at": "2026-09-10T05:38:07.974255+00:00"
+            "generated_at": "2026-09-10T14:32:13.175401+00:00"
         }
     },
     {
@@ -1090,7 +1090,7 @@
         },
         "pipeline": {
             "enriched": "success",
-            "generated_at": "2026-09-10T05:38:07.974262+00:00"
+            "generated_at": "2026-09-10T14:32:13.175431+00:00"
         }
     },
     {
@@ -1161,7 +1161,7 @@
         },
         "pipeline": {
             "enriched": "success",
-            "generated_at": "2026-09-10T05:38:07.974268+00:00"
+            "generated_at": "2026-09-10T14:32:13.175451+00:00"
         }
     },
     {
@@ -1233,7 +1233,7 @@
         },
         "pipeline": {
             "enriched": "success",
-            "generated_at": "2026-09-10T05:38:07.974273+00:00"
+            "generated_at": "2026-09-10T14:32:13.175466+00:00"
         }
     },
     {
@@ -1304,7 +1304,7 @@
         },
         "pipeline": {
             "enriched": "success",
-            "generated_at": "2026-09-10T05:38:07.974278+00:00"
+            "generated_at": "2026-09-10T14:32:13.175490+00:00"
         }
     },
     {
@@ -1376,7 +1376,7 @@
         },
         "pipeline": {
             "enriched": "success",
-            "generated_at": "2026-09-10T05:38:07.974287+00:00"
+            "generated_at": "2026-09-10T14:32:13.175541+00:00"
         }
     },
     {
@@ -1448,7 +1448,7 @@
         },
         "pipeline": {
             "enriched": "success",
-            "generated_at": "2026-09-10T05:38:07.974293+00:00"
+            "generated_at": "2026-09-10T14:32:13.175569+00:00"
         }
     },
     {
@@ -1519,7 +1519,7 @@
         },
         "pipeline": {
             "enriched": "success",
-            "generated_at": "2026-09-10T05:38:07.974299+00:00"
+            "generated_at": "2026-09-10T14:32:13.175604+00:00"
         }
     },
     {
@@ -1590,7 +1590,7 @@
         },
         "pipeline": {
             "enriched": "success",
-            "generated_at": "2026-09-10T05:38:07.974304+00:00"
+            "generated_at": "2026-09-10T14:32:13.175642+00:00"
         }
     },
     {
@@ -1661,7 +1661,7 @@
         },
         "pipeline": {
             "enriched": "success",
-            "generated_at": "2026-09-10T05:38:07.974313+00:00"
+            "generated_at": "2026-09-10T14:32:13.175663+00:00"
         }
     },
     {
@@ -1737,7 +1737,7 @@
         },
         "pipeline": {
             "enriched": "success",
-            "generated_at": "2026-09-10T05:38:07.974319+00:00"
+            "generated_at": "2026-09-10T14:32:13.175675+00:00"
         }
     },
     {
@@ -1808,7 +1808,7 @@
         },
         "pipeline": {
             "enriched": "success",
-            "generated_at": "2026-09-10T05:38:07.974328+00:00"
+            "generated_at": "2026-09-10T14:32:13.175685+00:00"
         }
     },
     {
@@ -1879,7 +1879,7 @@
         },
         "pipeline": {
             "enriched": "success",
-            "generated_at": "2026-09-10T05:38:07.974333+00:00"
+            "generated_at": "2026-09-10T14:32:13.175692+00:00"
         }
     },
     {
@@ -1892,7 +1892,7 @@
         "nvd": {
             "description": "Out of bounds write in V8 in Google Chrome prior to 153.0.8010.36 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: Medium)",
             "published": "2026-09-09T01:17:05.887",
-            "last_modified": "2026-09-10T04:18:21.813",
+            "last_modified": "2026-09-10T12:49:02.630",
             "cvss_score": 8.8,
             "severity": "HIGH",
             "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
@@ -1951,7 +1951,7 @@
         },
         "pipeline": {
             "enriched": "success",
-            "generated_at": "2026-09-10T05:38:07.974339+00:00"
+            "generated_at": "2026-09-10T14:32:13.175697+00:00"
         }
     },
     {
@@ -2024,7 +2024,7 @@
         },
         "pipeline": {
             "enriched": "success",
-            "generated_at": "2026-09-10T05:38:07.974348+00:00"
+            "generated_at": "2026-09-10T14:32:13.175709+00:00"
         }
     }
 ]

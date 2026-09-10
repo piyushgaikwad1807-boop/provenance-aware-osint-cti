@@ -4,7 +4,7 @@
     "catalog_version": "2026.09.09",
     "date_released": "2026-09-09T19:00:50.2591Z",
     "date_updated": null,
-    "collected_at": "2026-09-10T05:38:07.422510+00:00",
+    "collected_at": "2026-09-10T14:32:12.802508+00:00",
     "vulnerabilities": [
         {
             "cveID": "CVE-2026-19490",
