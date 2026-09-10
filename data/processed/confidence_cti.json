@@ -1,0 +1,785 @@
+[
+    {
+        "cve_id": "CVE-2025-25249",
+        "sources": [
+            {
+                "name": "CISA",
+                "type": "government_advisory",
+                "url": "https://www.cisa.gov/news-events/alerts/2026/09/09/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+                "evidence": "CVE CVE-2025-25249 identified in CISA advisory"
+            },
+            {
+                "name": "NVD",
+                "type": "vulnerability_database",
+                "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-25249",
+                "evidence": "NVD record available for CVE-2025-25249"
+            }
+        ],
+        "source_count": 2,
+        "corroborated": true,
+        "confidence_score": 1.0,
+        "confidence_category": "HIGH",
+        "confidence_reasons": [
+            "Multiple sources corroborate the CTI record",
+            "CISA advisory evidence is available",
+            "NVD vulnerability record is available",
+            "Source evidence descriptions are available",
+            "Valid CVE identifier is present"
+        ],
+        "generated_at": "2026-09-10T05:14:41.747357+00:00"
+    },
+    {
+        "cve_id": "CVE-2026-19490",
+        "sources": [
+            {
+                "name": "CISA",
+                "type": "government_advisory",
+                "url": "https://www.cisa.gov/news-events/alerts/2026/09/09/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+                "evidence": "CVE CVE-2026-19490 identified in CISA advisory"
+            },
+            {
+                "name": "NVD",
+                "type": "vulnerability_database",
+                "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19490",
+                "evidence": "NVD record available for CVE-2026-19490"
+            }
+        ],
+        "source_count": 2,
+        "corroborated": true,
+        "confidence_score": 1.0,
+        "confidence_category": "HIGH",
+        "confidence_reasons": [
+            "Multiple sources corroborate the CTI record",
+            "CISA advisory evidence is available",
+            "NVD vulnerability record is available",
+            "Source evidence descriptions are available",
+            "Valid CVE identifier is present"
+        ],
+        "generated_at": "2026-09-10T05:14:41.747483+00:00"
+    },
+    {
+        "cve_id": "CVE-2026-20079",
+        "sources": [
+            {
+                "name": "CISA",
+                "type": "government_advisory",
+                "url": "https://www.cisa.gov/news-events/alerts/2026/09/09/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+                "evidence": "CVE CVE-2026-20079 identified in CISA advisory"
+            },
+            {
+                "name": "NVD",
+                "type": "vulnerability_database",
+                "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20079",
+                "evidence": "NVD record available for CVE-2026-20079"
+            }
+        ],
+        "source_count": 2,
+        "corroborated": true,
+        "confidence_score": 1.0,
+        "confidence_category": "HIGH",
+        "confidence_reasons": [
+            "Multiple sources corroborate the CTI record",
+            "CISA advisory evidence is available",
+            "NVD vulnerability record is available",
+            "Source evidence descriptions are available",
+            "Valid CVE identifier is present"
+        ],
+        "generated_at": "2026-09-10T05:14:41.747536+00:00"
+    },
+    {
+        "cve_id": "CVE-2026-87491",
+        "sources": [
+            {
+                "name": "CISA",
+                "type": "government_advisory",
+                "url": "https://www.cisa.gov/news-events/alerts/2026/09/09/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+                "evidence": "CVE CVE-2026-87491 identified in CISA advisory"
+            },
+            {
+                "name": "NVD",
+                "type": "vulnerability_database",
+                "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-87491",
+                "evidence": "NVD record available for CVE-2026-87491"
+            }
+        ],
+        "source_count": 2,
+        "corroborated": true,
+        "confidence_score": 1.0,
+        "confidence_category": "HIGH",
+        "confidence_reasons": [
+            "Multiple sources corroborate the CTI record",
+            "CISA advisory evidence is available",
+            "NVD vulnerability record is available",
+            "Source evidence descriptions are available",
+            "Valid CVE identifier is present"
+        ],
+        "generated_at": "2026-09-10T05:14:41.747579+00:00"
+    },
+    {
+        "cve_id": "CVE-2026-75650",
+        "sources": [
+            {
+                "name": "CISA",
+                "type": "government_advisory",
+                "url": "https://www.cisa.gov/news-events/alerts/2026/09/08/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+                "evidence": "CVE CVE-2026-75650 identified in CISA advisory"
+            },
+            {
+                "name": "NVD",
+                "type": "vulnerability_database",
+                "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75650",
+                "evidence": "NVD record available for CVE-2026-75650"
+            }
+        ],
+        "source_count": 2,
+        "corroborated": true,
+        "confidence_score": 1.0,
+        "confidence_category": "HIGH",
+        "confidence_reasons": [
+            "Multiple sources corroborate the CTI record",
+            "CISA advisory evidence is available",
+            "NVD vulnerability record is available",
+            "Source evidence descriptions are available",
+            "Valid CVE identifier is present"
+        ],
+        "generated_at": "2026-09-10T05:14:41.747625+00:00"
+    },
+    {
+        "cve_id": "CVE-2026-81963",
+        "sources": [
+            {
+                "name": "CISA",
+                "type": "government_advisory",
+                "url": "https://www.cisa.gov/news-events/alerts/2026/09/08/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+                "evidence": "CVE CVE-2026-81963 identified in CISA advisory"
+            },
+            {
+                "name": "NVD",
+                "type": "vulnerability_database",
+                "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-81963",
+                "evidence": "NVD record available for CVE-2026-81963"
+            }
+        ],
+        "source_count": 2,
+        "corroborated": true,
+        "confidence_score": 1.0,
+        "confidence_category": "HIGH",
+        "confidence_reasons": [
+            "Multiple sources corroborate the CTI record",
+            "CISA advisory evidence is available",
+            "NVD vulnerability record is available",
+            "Source evidence descriptions are available",
+            "Valid CVE identifier is present"
+        ],
+        "generated_at": "2026-09-10T05:14:41.747670+00:00"
+    },
+    {
+        "cve_id": "CVE-2026-85880",
+        "sources": [
+            {
+                "name": "CISA",
+                "type": "government_advisory",
+                "url": "https://www.cisa.gov/news-events/alerts/2026/09/08/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+                "evidence": "CVE CVE-2026-85880 identified in CISA advisory"
+            },
+            {
+                "name": "NVD",
+                "type": "vulnerability_database",
+                "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85880",
+                "evidence": "NVD record available for CVE-2026-85880"
+            }
+        ],
+        "source_count": 2,
+        "corroborated": true,
+        "confidence_score": 1.0,
+        "confidence_category": "HIGH",
+        "confidence_reasons": [
+            "Multiple sources corroborate the CTI record",
+            "CISA advisory evidence is available",
+            "NVD vulnerability record is available",
+            "Source evidence descriptions are available",
+            "Valid CVE identifier is present"
+        ],
+        "generated_at": "2026-09-10T05:14:41.747715+00:00"
+    },
+    {
+        "cve_id": "CVE-2026-86218",
+        "sources": [
+            {
+                "name": "CISA",
+                "type": "government_advisory",
+                "url": "https://www.cisa.gov/news-events/alerts/2026/09/08/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+                "evidence": "CVE CVE-2026-86218 identified in CISA advisory"
+            },
+            {
+                "name": "NVD",
+                "type": "vulnerability_database",
+                "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-86218",
+                "evidence": "NVD record available for CVE-2026-86218"
+            }
+        ],
+        "source_count": 2,
+        "corroborated": true,
+        "confidence_score": 1.0,
+        "confidence_category": "HIGH",
+        "confidence_reasons": [
+            "Multiple sources corroborate the CTI record",
+            "CISA advisory evidence is available",
+            "NVD vulnerability record is available",
+            "Source evidence descriptions are available",
+            "Valid CVE identifier is present"
+        ],
+        "generated_at": "2026-09-10T05:14:41.747758+00:00"
+    },
+    {
+        "cve_id": "CVE-2026-85046",
+        "sources": [
+            {
+                "name": "CISA",
+                "type": "government_advisory",
+                "url": "https://www.cisa.gov/news-events/alerts/2026/09/04/cisa-adds-one-known-exploited-vulnerability-catalog",
+                "evidence": "CVE CVE-2026-85046 identified in CISA advisory"
+            },
+            {
+                "name": "NVD",
+                "type": "vulnerability_database",
+                "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85046",
+                "evidence": "NVD record available for CVE-2026-85046"
+            }
+        ],
+        "source_count": 2,
+        "corroborated": true,
+        "confidence_score": 1.0,
+        "confidence_category": "HIGH",
+        "confidence_reasons": [
+            "Multiple sources corroborate the CTI record",
+            "CISA advisory evidence is available",
+            "NVD vulnerability record is available",
+            "Source evidence descriptions are available",
+            "Valid CVE identifier is present"
+        ],
+        "generated_at": "2026-09-10T05:14:41.747798+00:00"
+    },
+    {
+        "cve_id": "CVE-2026-48710",
+        "sources": [
+            {
+                "name": "CISA",
+                "type": "government_advisory",
+                "url": "https://www.cisa.gov/news-events/alerts/2026/09/02/cisa-adds-seven-known-exploited-vulnerabilities-catalog",
+                "evidence": "CVE CVE-2026-48710 identified in CISA advisory"
+            },
+            {
+                "name": "NVD",
+                "type": "vulnerability_database",
+                "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48710",
+                "evidence": "NVD record available for CVE-2026-48710"
+            }
+        ],
+        "source_count": 2,
+        "corroborated": true,
+        "confidence_score": 1.0,
+        "confidence_category": "HIGH",
+        "confidence_reasons": [
+            "Multiple sources corroborate the CTI record",
+            "CISA advisory evidence is available",
+            "NVD vulnerability record is available",
+            "Source evidence descriptions are available",
+            "Valid CVE identifier is present"
+        ],
+        "generated_at": "2026-09-10T05:14:41.747843+00:00"
+    },
+    {
+        "cve_id": "CVE-2026-49869",
+        "sources": [
+            {
+                "name": "CISA",
+                "type": "government_advisory",
+                "url": "https://www.cisa.gov/news-events/alerts/2026/09/02/cisa-adds-seven-known-exploited-vulnerabilities-catalog",
+                "evidence": "CVE CVE-2026-49869 identified in CISA advisory"
+            },
+            {
+                "name": "NVD",
+                "type": "vulnerability_database",
+                "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-49869",
+                "evidence": "NVD record available for CVE-2026-49869"
+            }
+        ],
+        "source_count": 2,
+        "corroborated": true,
+        "confidence_score": 1.0,
+        "confidence_category": "HIGH",
+        "confidence_reasons": [
+            "Multiple sources corroborate the CTI record",
+            "CISA advisory evidence is available",
+            "NVD vulnerability record is available",
+            "Source evidence descriptions are available",
+            "Valid CVE identifier is present"
+        ],
+        "generated_at": "2026-09-10T05:14:41.747890+00:00"
+    },
+    {
+        "cve_id": "CVE-2026-59822",
+        "sources": [
+            {
+                "name": "CISA",
+                "type": "government_advisory",
+                "url": "https://www.cisa.gov/news-events/alerts/2026/09/02/cisa-adds-seven-known-exploited-vulnerabilities-catalog",
+                "evidence": "CVE CVE-2026-59822 identified in CISA advisory"
+            },
+            {
+                "name": "NVD",
+                "type": "vulnerability_database",
+                "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59822",
+                "evidence": "NVD record available for CVE-2026-59822"
+            }
+        ],
+        "source_count": 2,
+        "corroborated": true,
+        "confidence_score": 1.0,
+        "confidence_category": "HIGH",
+        "confidence_reasons": [
+            "Multiple sources corroborate the CTI record",
+            "CISA advisory evidence is available",
+            "NVD vulnerability record is available",
+            "Source evidence descriptions are available",
+            "Valid CVE identifier is present"
+        ],
+        "generated_at": "2026-09-10T05:14:41.747933+00:00"
+    },
+    {
+        "cve_id": "CVE-2026-82329",
+        "sources": [
+            {
+                "name": "CISA",
+                "type": "government_advisory",
+                "url": "https://www.cisa.gov/news-events/alerts/2026/09/02/cisa-adds-seven-known-exploited-vulnerabilities-catalog",
+                "evidence": "CVE CVE-2026-82329 identified in CISA advisory"
+            },
+            {
+                "name": "NVD",
+                "type": "vulnerability_database",
+                "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82329",
+                "evidence": "NVD record available for CVE-2026-82329"
+            }
+        ],
+        "source_count": 2,
+        "corroborated": true,
+        "confidence_score": 1.0,
+        "confidence_category": "HIGH",
+        "confidence_reasons": [
+            "Multiple sources corroborate the CTI record",
+            "CISA advisory evidence is available",
+            "NVD vulnerability record is available",
+            "Source evidence descriptions are available",
+            "Valid CVE identifier is present"
+        ],
+        "generated_at": "2026-09-10T05:14:41.747976+00:00"
+    },
+    {
+        "cve_id": "CVE-2026-83548",
+        "sources": [
+            {
+                "name": "CISA",
+                "type": "government_advisory",
+                "url": "https://www.cisa.gov/news-events/alerts/2026/09/02/cisa-adds-seven-known-exploited-vulnerabilities-catalog",
+                "evidence": "CVE CVE-2026-83548 identified in CISA advisory"
+            },
+            {
+                "name": "NVD",
+                "type": "vulnerability_database",
+                "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-83548",
+                "evidence": "NVD record available for CVE-2026-83548"
+            }
+        ],
+        "source_count": 2,
+        "corroborated": true,
+        "confidence_score": 1.0,
+        "confidence_category": "HIGH",
+        "confidence_reasons": [
+            "Multiple sources corroborate the CTI record",
+            "CISA advisory evidence is available",
+            "NVD vulnerability record is available",
+            "Source evidence descriptions are available",
+            "Valid CVE identifier is present"
+        ],
+        "generated_at": "2026-09-10T05:14:41.748023+00:00"
+    },
+    {
+        "cve_id": "CVE-2026-83549",
+        "sources": [
+            {
+                "name": "CISA",
+                "type": "government_advisory",
+                "url": "https://www.cisa.gov/news-events/alerts/2026/09/02/cisa-adds-seven-known-exploited-vulnerabilities-catalog",
+                "evidence": "CVE CVE-2026-83549 identified in CISA advisory"
+            },
+            {
+                "name": "NVD",
+                "type": "vulnerability_database",
+                "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-83549",
+                "evidence": "NVD record available for CVE-2026-83549"
+            }
+        ],
+        "source_count": 2,
+        "corroborated": true,
+        "confidence_score": 1.0,
+        "confidence_category": "HIGH",
+        "confidence_reasons": [
+            "Multiple sources corroborate the CTI record",
+            "CISA advisory evidence is available",
+            "NVD vulnerability record is available",
+            "Source evidence descriptions are available",
+            "Valid CVE identifier is present"
+        ],
+        "generated_at": "2026-09-10T05:14:41.748078+00:00"
+    },
+    {
+        "cve_id": "CVE-2026-9586",
+        "sources": [
+            {
+                "name": "CISA",
+                "type": "government_advisory",
+                "url": "https://www.cisa.gov/news-events/alerts/2026/09/02/cisa-adds-seven-known-exploited-vulnerabilities-catalog",
+                "evidence": "CVE CVE-2026-9586 identified in CISA advisory"
+            },
+            {
+                "name": "NVD",
+                "type": "vulnerability_database",
+                "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-9586",
+                "evidence": "NVD record available for CVE-2026-9586"
+            }
+        ],
+        "source_count": 2,
+        "corroborated": true,
+        "confidence_score": 1.0,
+        "confidence_category": "HIGH",
+        "confidence_reasons": [
+            "Multiple sources corroborate the CTI record",
+            "CISA advisory evidence is available",
+            "NVD vulnerability record is available",
+            "Source evidence descriptions are available",
+            "Valid CVE identifier is present"
+        ],
+        "generated_at": "2026-09-10T05:14:41.748121+00:00"
+    },
+    {
+        "cve_id": "CVE-2026-81578",
+        "sources": [
+            {
+                "name": "CISA",
+                "type": "government_advisory",
+                "url": "https://www.cisa.gov/news-events/alerts/2026/08/31/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+                "evidence": "CVE CVE-2026-81578 identified in CISA advisory"
+            },
+            {
+                "name": "NVD",
+                "type": "vulnerability_database",
+                "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-81578",
+                "evidence": "NVD record available for CVE-2026-81578"
+            }
+        ],
+        "source_count": 2,
+        "corroborated": true,
+        "confidence_score": 1.0,
+        "confidence_category": "HIGH",
+        "confidence_reasons": [
+            "Multiple sources corroborate the CTI record",
+            "CISA advisory evidence is available",
+            "NVD vulnerability record is available",
+            "Source evidence descriptions are available",
+            "Valid CVE identifier is present"
+        ],
+        "generated_at": "2026-09-10T05:14:41.748164+00:00"
+    },
+    {
+        "cve_id": "CVE-2026-82078",
+        "sources": [
+            {
+                "name": "CISA",
+                "type": "government_advisory",
+                "url": "https://www.cisa.gov/news-events/alerts/2026/08/31/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+                "evidence": "CVE CVE-2026-82078 identified in CISA advisory"
+            },
+            {
+                "name": "NVD",
+                "type": "vulnerability_database",
+                "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82078",
+                "evidence": "NVD record available for CVE-2026-82078"
+            }
+        ],
+        "source_count": 2,
+        "corroborated": true,
+        "confidence_score": 1.0,
+        "confidence_category": "HIGH",
+        "confidence_reasons": [
+            "Multiple sources corroborate the CTI record",
+            "CISA advisory evidence is available",
+            "NVD vulnerability record is available",
+            "Source evidence descriptions are available",
+            "Valid CVE identifier is present"
+        ],
+        "generated_at": "2026-09-10T05:14:41.748208+00:00"
+    },
+    {
+        "cve_id": "CVE-2023-49105",
+        "sources": [
+            {
+                "name": "CISA",
+                "type": "government_advisory",
+                "url": "https://www.cisa.gov/news-events/alerts/2026/08/27/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+                "evidence": "CVE CVE-2023-49105 identified in CISA advisory"
+            },
+            {
+                "name": "NVD",
+                "type": "vulnerability_database",
+                "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-49105",
+                "evidence": "NVD record available for CVE-2023-49105"
+            }
+        ],
+        "source_count": 2,
+        "corroborated": true,
+        "confidence_score": 1.0,
+        "confidence_category": "HIGH",
+        "confidence_reasons": [
+            "Multiple sources corroborate the CTI record",
+            "CISA advisory evidence is available",
+            "NVD vulnerability record is available",
+            "Source evidence descriptions are available",
+            "Valid CVE identifier is present"
+        ],
+        "generated_at": "2026-09-10T05:14:41.748250+00:00"
+    },
+    {
+        "cve_id": "CVE-2026-53362",
+        "sources": [
+            {
+                "name": "CISA",
+                "type": "government_advisory",
+                "url": "https://www.cisa.gov/news-events/alerts/2026/08/27/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+                "evidence": "CVE CVE-2026-53362 identified in CISA advisory"
+            },
+            {
+                "name": "NVD",
+                "type": "vulnerability_database",
+                "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-53362",
+                "evidence": "NVD record available for CVE-2026-53362"
+            }
+        ],
+        "source_count": 2,
+        "corroborated": true,
+        "confidence_score": 1.0,
+        "confidence_category": "HIGH",
+        "confidence_reasons": [
+            "Multiple sources corroborate the CTI record",
+            "CISA advisory evidence is available",
+            "NVD vulnerability record is available",
+            "Source evidence descriptions are available",
+            "Valid CVE identifier is present"
+        ],
+        "generated_at": "2026-09-10T05:14:41.748296+00:00"
+    },
+    {
+        "cve_id": "CVE-2026-66384",
+        "sources": [
+            {
+                "name": "CISA",
+                "type": "government_advisory",
+                "url": "https://www.cisa.gov/news-events/alerts/2026/08/27/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+                "evidence": "CVE CVE-2026-66384 identified in CISA advisory"
+            },
+            {
+                "name": "NVD",
+                "type": "vulnerability_database",
+                "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66384",
+                "evidence": "NVD record available for CVE-2026-66384"
+            }
+        ],
+        "source_count": 2,
+        "corroborated": true,
+        "confidence_score": 1.0,
+        "confidence_category": "HIGH",
+        "confidence_reasons": [
+            "Multiple sources corroborate the CTI record",
+            "CISA advisory evidence is available",
+            "NVD vulnerability record is available",
+            "Source evidence descriptions are available",
+            "Valid CVE identifier is present"
+        ],
+        "generated_at": "2026-09-10T05:14:41.748345+00:00"
+    },
+    {
+        "cve_id": "CVE-2015-3246",
+        "sources": [
+            {
+                "name": "CISA",
+                "type": "government_advisory",
+                "url": "https://www.cisa.gov/news-events/alerts/2026/08/26/cisa-adds-six-known-exploited-vulnerabilities-catalog",
+                "evidence": "CVE CVE-2015-3246 identified in CISA advisory"
+            },
+            {
+                "name": "NVD",
+                "type": "vulnerability_database",
+                "url": "https://nvd.nist.gov/vuln/detail/CVE-2015-3246",
+                "evidence": "NVD record available for CVE-2015-3246"
+            }
+        ],
+        "source_count": 2,
+        "corroborated": true,
+        "confidence_score": 1.0,
+        "confidence_category": "HIGH",
+        "confidence_reasons": [
+            "Multiple sources corroborate the CTI record",
+            "CISA advisory evidence is available",
+            "NVD vulnerability record is available",
+            "Source evidence descriptions are available",
+            "Valid CVE identifier is present"
+        ],
+        "generated_at": "2026-09-10T05:14:41.748392+00:00"
+    },
+    {
+        "cve_id": "CVE-2015-5287",
+        "sources": [
+            {
+                "name": "CISA",
+                "type": "government_advisory",
+                "url": "https://www.cisa.gov/news-events/alerts/2026/08/26/cisa-adds-six-known-exploited-vulnerabilities-catalog",
+                "evidence": "CVE CVE-2015-5287 identified in CISA advisory"
+            },
+            {
+                "name": "NVD",
+                "type": "vulnerability_database",
+                "url": "https://nvd.nist.gov/vuln/detail/CVE-2015-5287",
+                "evidence": "NVD record available for CVE-2015-5287"
+            }
+        ],
+        "source_count": 2,
+        "corroborated": true,
+        "confidence_score": 1.0,
+        "confidence_category": "HIGH",
+        "confidence_reasons": [
+            "Multiple sources corroborate the CTI record",
+            "CISA advisory evidence is available",
+            "NVD vulnerability record is available",
+            "Source evidence descriptions are available",
+            "Valid CVE identifier is present"
+        ],
+        "generated_at": "2026-09-10T05:14:41.748435+00:00"
+    },
+    {
+        "cve_id": "CVE-2019-1068",
+        "sources": [
+            {
+                "name": "CISA",
+                "type": "government_advisory",
+                "url": "https://www.cisa.gov/news-events/alerts/2026/08/26/cisa-adds-six-known-exploited-vulnerabilities-catalog",
+                "evidence": "CVE CVE-2019-1068 identified in CISA advisory"
+            },
+            {
+                "name": "NVD",
+                "type": "vulnerability_database",
+                "url": "https://nvd.nist.gov/vuln/detail/CVE-2019-1068",
+                "evidence": "NVD record available for CVE-2019-1068"
+            }
+        ],
+        "source_count": 2,
+        "corroborated": true,
+        "confidence_score": 1.0,
+        "confidence_category": "HIGH",
+        "confidence_reasons": [
+            "Multiple sources corroborate the CTI record",
+            "CISA advisory evidence is available",
+            "NVD vulnerability record is available",
+            "Source evidence descriptions are available",
+            "Valid CVE identifier is present"
+        ],
+        "generated_at": "2026-09-10T05:14:41.748482+00:00"
+    },
+    {
+        "cve_id": "CVE-2021-23758",
+        "sources": [
+            {
+                "name": "CISA",
+                "type": "government_advisory",
+                "url": "https://www.cisa.gov/news-events/alerts/2026/08/26/cisa-adds-six-known-exploited-vulnerabilities-catalog",
+                "evidence": "CVE CVE-2021-23758 identified in CISA advisory"
+            },
+            {
+                "name": "NVD",
+                "type": "vulnerability_database",
+                "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-23758",
+                "evidence": "NVD record available for CVE-2021-23758"
+            }
+        ],
+        "source_count": 2,
+        "corroborated": true,
+        "confidence_score": 1.0,
+        "confidence_category": "HIGH",
+        "confidence_reasons": [
+            "Multiple sources corroborate the CTI record",
+            "CISA advisory evidence is available",
+            "NVD vulnerability record is available",
+            "Source evidence descriptions are available",
+            "Valid CVE identifier is present"
+        ],
+        "generated_at": "2026-09-10T05:14:41.748522+00:00"
+    },
+    {
+        "cve_id": "CVE-2022-0995",
+        "sources": [
+            {
+                "name": "CISA",
+                "type": "government_advisory",
+                "url": "https://www.cisa.gov/news-events/alerts/2026/08/26/cisa-adds-six-known-exploited-vulnerabilities-catalog",
+                "evidence": "CVE CVE-2022-0995 identified in CISA advisory"
+            },
+            {
+                "name": "NVD",
+                "type": "vulnerability_database",
+                "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-0995",
+                "evidence": "NVD record available for CVE-2022-0995"
+            }
+        ],
+        "source_count": 2,
+        "corroborated": true,
+        "confidence_score": 1.0,
+        "confidence_category": "HIGH",
+        "confidence_reasons": [
+            "Multiple sources corroborate the CTI record",
+            "CISA advisory evidence is available",
+            "NVD vulnerability record is available",
+            "Source evidence descriptions are available",
+            "Valid CVE identifier is present"
+        ],
+        "generated_at": "2026-09-10T05:14:41.748563+00:00"
+    },
+    {
+        "cve_id": "CVE-2026-8452",
+        "sources": [
+            {
+                "name": "CISA",
+                "type": "government_advisory",
+                "url": "https://www.cisa.gov/news-events/alerts/2026/08/26/cisa-adds-six-known-exploited-vulnerabilities-catalog",
+                "evidence": "CVE CVE-2026-8452 identified in CISA advisory"
+            },
+            {
+                "name": "NVD",
+                "type": "vulnerability_database",
+                "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-8452",
+                "evidence": "NVD record available for CVE-2026-8452"
+            }
+        ],
+        "source_count": 2,
+        "corroborated": true,
+        "confidence_score": 1.0,
+        "confidence_category": "HIGH",
+        "confidence_reasons": [
+            "Multiple sources corroborate the CTI record",
+            "CISA advisory evidence is available",
+            "NVD vulnerability record is available",
+            "Source evidence descriptions are available",
+            "Valid CVE identifier is present"
+        ],
+        "generated_at": "2026-09-10T05:14:41.748611+00:00"
+    }
+]
