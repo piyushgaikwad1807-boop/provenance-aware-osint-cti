@@ -1,0 +1,195 @@
+{
+  "evaluation_metadata": {
+    "generated_at": "2026-09-11T15:21:25.107751+00:00",
+    "method": "Benchmark evaluation using CISA KEV membership as a proxy exploitation label.",
+    "prediction_rule": "VERY_HIGH and HIGH correlation levels are classified as positive."
+  },
+  "dataset": {
+    "total_ground_truth_records": 23,
+    "evaluated_records": 23,
+    "skipped_records": 0
+  },
+  "confusion_matrix": {
+    "true_positive": 23,
+    "true_negative": 0,
+    "false_positive": 0,
+    "false_negative": 0
+  },
+  "classification_metrics": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0
+  },
+  "evaluated_records": [
+    {
+      "cve_id": "CVE-2023-49105",
+      "actual_label": 1,
+      "predicted_label": 1,
+      "correlation_score": 80,
+      "correlation_level": "VERY_HIGH"
+    },
+    {
+      "cve_id": "CVE-2025-25249",
+      "actual_label": 1,
+      "predicted_label": 1,
+      "correlation_score": 78,
+      "correlation_level": "HIGH"
+    },
+    {
+      "cve_id": "CVE-2026-19490",
+      "actual_label": 1,
+      "predicted_label": 1,
+      "correlation_score": 80,
+      "correlation_level": "VERY_HIGH"
+    },
+    {
+      "cve_id": "CVE-2026-20079",
+      "actual_label": 1,
+      "predicted_label": 1,
+      "correlation_score": 80,
+      "correlation_level": "VERY_HIGH"
+    },
+    {
+      "cve_id": "CVE-2026-48710",
+      "actual_label": 1,
+      "predicted_label": 1,
+      "correlation_score": 75,
+      "correlation_level": "HIGH"
+    },
+    {
+      "cve_id": "CVE-2026-49869",
+      "actual_label": 1,
+      "predicted_label": 1,
+      "correlation_score": 80,
+      "correlation_level": "VERY_HIGH"
+    },
+    {
+      "cve_id": "CVE-2026-53362",
+      "actual_label": 1,
+      "predicted_label": 1,
+      "correlation_score": 78,
+      "correlation_level": "HIGH"
+    },
+    {
+      "cve_id": "CVE-2026-59822",
+      "actual_label": 1,
+      "predicted_label": 1,
+      "correlation_score": 78,
+      "correlation_level": "HIGH"
+    },
+    {
+      "cve_id": "CVE-2026-66384",
+      "actual_label": 1,
+      "predicted_label": 1,
+      "correlation_score": 75,
+      "correlation_level": "HIGH"
+    },
+    {
+      "cve_id": "CVE-2026-67277",
+      "actual_label": 1,
+      "predicted_label": 1,
+      "correlation_score": 70,
+      "correlation_level": "HIGH"
+    },
+    {
+      "cve_id": "CVE-2026-75650",
+      "actual_label": 1,
+      "predicted_label": 1,
+      "correlation_score": 80,
+      "correlation_level": "VERY_HIGH"
+    },
+    {
+      "cve_id": "CVE-2026-81578",
+      "actual_label": 1,
+      "predicted_label": 1,
+      "correlation_score": 80,
+      "correlation_level": "VERY_HIGH"
+    },
+    {
+      "cve_id": "CVE-2026-81963",
+      "actual_label": 1,
+      "predicted_label": 1,
+      "correlation_score": 78,
+      "correlation_level": "HIGH"
+    },
+    {
+      "cve_id": "CVE-2026-82078",
+      "actual_label": 1,
+      "predicted_label": 1,
+      "correlation_score": 80,
+      "correlation_level": "VERY_HIGH"
+    },
+    {
+      "cve_id": "CVE-2026-82329",
+      "actual_label": 1,
+      "predicted_label": 1,
+      "correlation_score": 80,
+      "correlation_level": "VERY_HIGH"
+    },
+    {
+      "cve_id": "CVE-2026-83548",
+      "actual_label": 1,
+      "predicted_label": 1,
+      "correlation_score": 80,
+      "correlation_level": "VERY_HIGH"
+    },
+    {
+      "cve_id": "CVE-2026-83549",
+      "actual_label": 1,
+      "predicted_label": 1,
+      "correlation_score": 78,
+      "correlation_level": "HIGH"
+    },
+    {
+      "cve_id": "CVE-2026-85046",
+      "actual_label": 1,
+      "predicted_label": 1,
+      "correlation_score": 78,
+      "correlation_level": "HIGH"
+    },
+    {
+      "cve_id": "CVE-2026-85880",
+      "actual_label": 1,
+      "predicted_label": 1,
+      "correlation_score": 78,
+      "correlation_level": "HIGH"
+    },
+    {
+      "cve_id": "CVE-2026-86060",
+      "actual_label": 1,
+      "predicted_label": 1,
+      "correlation_score": 70,
+      "correlation_level": "HIGH"
+    },
+    {
+      "cve_id": "CVE-2026-86218",
+      "actual_label": 1,
+      "predicted_label": 1,
+      "correlation_score": 80,
+      "correlation_level": "VERY_HIGH"
+    },
+    {
+      "cve_id": "CVE-2026-87491",
+      "actual_label": 1,
+      "predicted_label": 1,
+      "correlation_score": 78,
+      "correlation_level": "HIGH"
+    },
+    {
+      "cve_id": "CVE-2026-9586",
+      "actual_label": 1,
+      "predicted_label": 1,
+      "correlation_score": 80,
+      "correlation_level": "VERY_HIGH"
+    }
+  ],
+  "skipped_cves": [],
+  "limitations": [
+    "CISA KEV membership is used as a proxy label.",
+    "Not being listed in KEV does not prove that a vulnerability has never been exploited.",
+    "The benchmark is not an independent expert-labelled ground-truth dataset.",
+    "The current correlation model uses heuristic weights.",
+    "The evaluation does not establish real-world predictive accuracy."
+  ]
+}

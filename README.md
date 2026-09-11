@@ -2493,3 +2493,34 @@ The new module is:
 
 ```text
 src/evaluate_correlation.py
+
+
+
+
+## Day 21 - Improved Explainable Threat Correlation Model
+
+The threat correlation methodology was improved by introducing a
+signal-based weighted correlation model.
+
+The new module is:
+
+```text
+src/improved_correlation.py
+
+
+
+## Day 22 - Ground-Truth Benchmark and Quantitative Evaluation
+
+A benchmark-based evaluation layer was added to the CTI
+correlation methodology.
+
+The purpose of this stage is to compare the output of the
+explainable correlation model against an explicitly defined
+benchmark label.
+
+### Benchmark Generator
+
+A new module was created:
+
+```text
+src/build_ground_truth.py

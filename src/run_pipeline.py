@@ -114,6 +114,14 @@ PIPELINE_STEPS = [
         "src/improved_correlation.py"
     ),
 
+    (   "Build benchmark ground-truth dataset",
+        "src/build_ground_truth.py"
+    ),
+
+    (   "Build benchmark ground-truth dataset",
+        "src/build_ground_truth.py"
+    ),
+
     (   "Generate automated CTI report",
         "src/generate_report.py"
     ),
