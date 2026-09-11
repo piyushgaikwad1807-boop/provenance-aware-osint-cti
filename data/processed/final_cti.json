@@ -1,412 +1,5 @@
 [
     {
-        "cve_id": "CVE-2015-3246",
-        "cisa": {
-            "advisory_title": null,
-            "advisory_url": null,
-            "source": "CISA"
-        },
-        "nvd": {
-            "description": "libuser before 0.56.13-8 and 0.60 before 0.60-7, as used in the userhelper program in the usermode package, directly modifies /etc/passwd, which allows local users to cause a denial of service (inconsistent file state) by causing an error during the modification. NOTE: this issue can be combined with CVE-2015-3245 to gain privileges.",
-            "published": "2015-08-11T14:59:07.040",
-            "last_modified": "2026-08-27T04:16:36.600",
-            "cvss_score": 5.1,
-            "severity": "MEDIUM",
-            "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
-            "references": [
-                "http://lists.fedoraproject.org/pipermail/package-announce/2015-August/163044.html",
-                "http://lists.fedoraproject.org/pipermail/package-announce/2015-July/162947.html",
-                "http://lists.opensuse.org/opensuse-security-announce/2015-08/msg00000.html",
-                "http://rhn.redhat.com/errata/RHSA-2015-1482.html",
-                "http://rhn.redhat.com/errata/RHSA-2015-1483.html",
-                "http://www.securityfocus.com/bid/76022",
-                "http://www.securitytracker.com/id/1033040",
-                "https://access.redhat.com/articles/1537873",
-                "https://www.exploit-db.com/exploits/44633/",
-                "https://www.qualys.com/2015/07/23/cve-2015-3245-cve-2015-3246/cve-2015-3245-cve-2015-3246.txt",
-                "http://lists.fedoraproject.org/pipermail/package-announce/2015-August/163044.html",
-                "http://lists.fedoraproject.org/pipermail/package-announce/2015-July/162947.html",
-                "http://lists.opensuse.org/opensuse-security-announce/2015-08/msg00000.html",
-                "http://rhn.redhat.com/errata/RHSA-2015-1482.html",
-                "http://rhn.redhat.com/errata/RHSA-2015-1483.html",
-                "http://www.securityfocus.com/bid/76022",
-                "http://www.securitytracker.com/id/1033040",
-                "https://access.redhat.com/articles/1537873",
-                "https://www.exploit-db.com/exploits/44633/",
-                "https://www.qualys.com/2015/07/23/cve-2015-3245-cve-2015-3246/cve-2015-3245-cve-2015-3246.txt",
-                "https://blog.talosintelligence.com/uat-10147-chinese-speaking-adversary-integrates-agentic-ai-into-post-compromise-operations/",
-                "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2015-3246"
-            ]
-        },
-        "kev": {
-            "known_exploited": true,
-            "date_added": "2026-08-26",
-            "vendor_project": "Red Hat",
-            "product": "Libuser",
-            "vulnerability_name": "Red Hat Libuser Race Condition Vulnerability",
-            "short_description": "Red Hat libuser contains a race condition vulnerability that allows authenticated local users to corrupt the /etc/passwd file to cause a denial of service or privilege escalation. ",
-            "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-            "due_date": "2026-09-09",
-            "source": "CISA KEV",
-            "source_url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json"
-        },
-        "exploitation_status": "KNOWN_EXPLOITED",
-        "provenance": {
-            "sources": [
-                {
-                    "name": "CISA",
-                    "type": "government_advisory",
-                    "url": "https://www.cisa.gov/news-events/alerts/2026/08/26/cisa-adds-six-known-exploited-vulnerabilities-catalog",
-                    "evidence": "CVE CVE-2015-3246 identified in CISA advisory"
-                },
-                {
-                    "name": "NVD",
-                    "type": "vulnerability_database",
-                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2015-3246",
-                    "evidence": "NVD record available for CVE-2015-3246"
-                }
-            ],
-            "source_count": 2,
-            "corroborated": true
-        },
-        "confidence": {
-            "score": 1.0,
-            "category": "HIGH",
-            "reasons": [
-                "Multiple sources corroborate the CTI record",
-                "CISA advisory evidence is available",
-                "NVD vulnerability record is available",
-                "Source evidence descriptions are available",
-                "Valid CVE identifier is present"
-            ]
-        },
-        "risk": {
-            "risk_level": "MEDIUM",
-            "cvss_score": 5.1,
-            "severity": "MEDIUM"
-        },
-        "pipeline": {
-            "enriched": "success",
-            "generated_at": "2026-09-10T14:49:19.189537+00:00"
-        }
-    },
-    {
-        "cve_id": "CVE-2015-5287",
-        "cisa": {
-            "advisory_title": null,
-            "advisory_url": null,
-            "source": "CISA"
-        },
-        "nvd": {
-            "description": "The abrt-hook-ccpp help program in Automatic Bug Reporting Tool (ABRT) before 2.7.1 allows local users with certain permissions to gain privileges via a symlink attack on a file with a predictable name, as demonstrated by /var/tmp/abrt/abrt-hax-coredump or /var/spool/abrt/abrt-hax-coredump.",
-            "published": "2015-12-07T18:59:02.230",
-            "last_modified": "2026-08-27T04:16:38.280",
-            "cvss_score": 7.8,
-            "severity": "HIGH",
-            "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
-            "references": [
-                "http://packetstormsecurity.com/files/154592/ABRT-sosreport-Privilege-Escalation.html",
-                "http://rhn.redhat.com/errata/RHSA-2015-2505.html",
-                "http://www.openwall.com/lists/oss-security/2015/12/01/1",
-                "http://www.oracle.com/technetwork/topics/security/linuxbulletinoct2015-2719645.html",
-                "http://www.securityfocus.com/bid/78137",
-                "https://bugzilla.redhat.com/show_bug.cgi?id=1266837",
-                "https://github.com/abrt/abrt/commit/3c1b60cfa62d39e5fff5a53a5bc53dae189e740e",
-                "https://www.exploit-db.com/exploits/38832/",
-                "http://packetstormsecurity.com/files/154592/ABRT-sosreport-Privilege-Escalation.html",
-                "http://rhn.redhat.com/errata/RHSA-2015-2505.html",
-                "http://www.openwall.com/lists/oss-security/2015/12/01/1",
-                "http://www.oracle.com/technetwork/topics/security/linuxbulletinoct2015-2719645.html",
-                "http://www.securityfocus.com/bid/78137",
-                "https://bugzilla.redhat.com/show_bug.cgi?id=1266837",
-                "https://github.com/abrt/abrt/commit/3c1b60cfa62d39e5fff5a53a5bc53dae189e740e",
-                "https://www.exploit-db.com/exploits/38832/",
-                "https://blog.talosintelligence.com/uat-10147-chinese-speaking-adversary-integrates-agentic-ai-into-post-compromise-operations/",
-                "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2015-5287"
-            ]
-        },
-        "kev": {
-            "known_exploited": true,
-            "date_added": "2026-08-26",
-            "vendor_project": "Red Hat",
-            "product": "Automatic Bug Reporting Tool",
-            "vulnerability_name": "Red Hat Automatic Bug Reporting Tool Privilege Escalation Vulnerability",
-            "short_description": "Red Hat Automatic Bug Reporting Tool (ABRT) contains a privilege escalation vulnerability that could allow local users with certain permissions to gain privileges via a symlink attack on a file with a predictable name. The impacted product(s) could be end-of-life (EoL) and/or end-of-service (EoS). Users are advised to discontinue use and/or transition to a supported version.",
-            "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-            "due_date": "2026-09-09",
-            "source": "CISA KEV",
-            "source_url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json"
-        },
-        "exploitation_status": "KNOWN_EXPLOITED",
-        "provenance": {
-            "sources": [
-                {
-                    "name": "CISA",
-                    "type": "government_advisory",
-                    "url": "https://www.cisa.gov/news-events/alerts/2026/08/26/cisa-adds-six-known-exploited-vulnerabilities-catalog",
-                    "evidence": "CVE CVE-2015-5287 identified in CISA advisory"
-                },
-                {
-                    "name": "NVD",
-                    "type": "vulnerability_database",
-                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2015-5287",
-                    "evidence": "NVD record available for CVE-2015-5287"
-                }
-            ],
-            "source_count": 2,
-            "corroborated": true
-        },
-        "confidence": {
-            "score": 1.0,
-            "category": "HIGH",
-            "reasons": [
-                "Multiple sources corroborate the CTI record",
-                "CISA advisory evidence is available",
-                "NVD vulnerability record is available",
-                "Source evidence descriptions are available",
-                "Valid CVE identifier is present"
-            ]
-        },
-        "risk": {
-            "risk_level": "HIGH",
-            "cvss_score": 7.8,
-            "severity": "HIGH"
-        },
-        "pipeline": {
-            "enriched": "success",
-            "generated_at": "2026-09-10T14:49:19.189602+00:00"
-        }
-    },
-    {
-        "cve_id": "CVE-2019-1068",
-        "cisa": {
-            "advisory_title": null,
-            "advisory_url": null,
-            "source": "CISA"
-        },
-        "nvd": {
-            "description": "A remote code execution vulnerability exists in Microsoft SQL Server when it incorrectly handles processing of internal functions, aka 'Microsoft SQL Server Remote Code Execution Vulnerability'.",
-            "published": "2019-07-15T19:15:16.983",
-            "last_modified": "2026-08-27T04:16:38.583",
-            "cvss_score": 8.8,
-            "severity": "HIGH",
-            "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
-            "references": [
-                "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2019-1068",
-                "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2019-1068",
-                "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2019-1068"
-            ]
-        },
-        "kev": {
-            "known_exploited": true,
-            "date_added": "2026-08-26",
-            "vendor_project": "Microsoft",
-            "product": "SQL Server",
-            "vulnerability_name": "Microsoft SQL Server Remote Code Execution Vulnerability",
-            "short_description": "Microsoft SQL Server contains a remote code execution vulnerability that could allow an attacker to execute code in the context of the SQL Server Database Engine service account.",
-            "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-            "due_date": "2026-08-29",
-            "source": "CISA KEV",
-            "source_url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json"
-        },
-        "exploitation_status": "KNOWN_EXPLOITED",
-        "provenance": {
-            "sources": [
-                {
-                    "name": "CISA",
-                    "type": "government_advisory",
-                    "url": "https://www.cisa.gov/news-events/alerts/2026/08/26/cisa-adds-six-known-exploited-vulnerabilities-catalog",
-                    "evidence": "CVE CVE-2019-1068 identified in CISA advisory"
-                },
-                {
-                    "name": "NVD",
-                    "type": "vulnerability_database",
-                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2019-1068",
-                    "evidence": "NVD record available for CVE-2019-1068"
-                }
-            ],
-            "source_count": 2,
-            "corroborated": true
-        },
-        "confidence": {
-            "score": 1.0,
-            "category": "HIGH",
-            "reasons": [
-                "Multiple sources corroborate the CTI record",
-                "CISA advisory evidence is available",
-                "NVD vulnerability record is available",
-                "Source evidence descriptions are available",
-                "Valid CVE identifier is present"
-            ]
-        },
-        "risk": {
-            "risk_level": "HIGH",
-            "cvss_score": 8.8,
-            "severity": "HIGH"
-        },
-        "pipeline": {
-            "enriched": "success",
-            "generated_at": "2026-09-10T14:49:19.189613+00:00"
-        }
-    },
-    {
-        "cve_id": "CVE-2021-23758",
-        "cisa": {
-            "advisory_title": null,
-            "advisory_url": null,
-            "source": "CISA"
-        },
-        "nvd": {
-            "description": "All versions of package ajaxpro.2 are vulnerable to Deserialization of Untrusted Data due to the possibility of deserialization of arbitrary .NET classes, which can be abused to gain remote code execution.",
-            "published": "2021-12-03T20:15:07.557",
-            "last_modified": "2026-08-27T04:16:38.863",
-            "cvss_score": 8.1,
-            "severity": "HIGH",
-            "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
-            "references": [
-                "http://packetstormsecurity.com/files/175677/AjaxPro-Deserialization-Remote-Code-Execution.html",
-                "https://github.com/michaelschwarz/Ajax.NET-Professional/commit/b0e63be5f0bb20dfce507cb8a1a9568f6e73de57",
-                "https://snyk.io/vuln/SNYK-DOTNET-AJAXPRO2-1925971",
-                "http://packetstormsecurity.com/files/175677/AjaxPro-Deserialization-Remote-Code-Execution.html",
-                "https://github.com/michaelschwarz/Ajax.NET-Professional/commit/b0e63be5f0bb20dfce507cb8a1a9568f6e73de57",
-                "https://snyk.io/vuln/SNYK-DOTNET-AJAXPRO2-1925971",
-                "https://blog.talosintelligence.com/uat-10147-chinese-speaking-adversary-integrates-agentic-ai-into-post-compromise-operations/",
-                "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2021-23758"
-            ]
-        },
-        "kev": {
-            "known_exploited": true,
-            "date_added": "2026-08-26",
-            "vendor_project": "Ajax.NET Professional",
-            "product": "Ajax.NET Professional",
-            "vulnerability_name": "Ajax.NET Professional Deserialization of Untrusted Data Vulnerability",
-            "short_description": "Ajax.NET Professional (AjaxPro) contains a deserialization of untrusted data vulnerability that could allow for remote code execution via arbitrary .NET classes. The impacted product(s) could be end-of-life (EoL) and/or end-of-service (EoS). Users are advised to discontinue use and/or transition to a supported version.",
-            "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-            "due_date": "2026-09-09",
-            "source": "CISA KEV",
-            "source_url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json"
-        },
-        "exploitation_status": "KNOWN_EXPLOITED",
-        "provenance": {
-            "sources": [
-                {
-                    "name": "CISA",
-                    "type": "government_advisory",
-                    "url": "https://www.cisa.gov/news-events/alerts/2026/08/26/cisa-adds-six-known-exploited-vulnerabilities-catalog",
-                    "evidence": "CVE CVE-2021-23758 identified in CISA advisory"
-                },
-                {
-                    "name": "NVD",
-                    "type": "vulnerability_database",
-                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-23758",
-                    "evidence": "NVD record available for CVE-2021-23758"
-                }
-            ],
-            "source_count": 2,
-            "corroborated": true
-        },
-        "confidence": {
-            "score": 1.0,
-            "category": "HIGH",
-            "reasons": [
-                "Multiple sources corroborate the CTI record",
-                "CISA advisory evidence is available",
-                "NVD vulnerability record is available",
-                "Source evidence descriptions are available",
-                "Valid CVE identifier is present"
-            ]
-        },
-        "risk": {
-            "risk_level": "HIGH",
-            "cvss_score": 8.1,
-            "severity": "HIGH"
-        },
-        "pipeline": {
-            "enriched": "success",
-            "generated_at": "2026-09-10T14:49:19.189620+00:00"
-        }
-    },
-    {
-        "cve_id": "CVE-2022-0995",
-        "cisa": {
-            "advisory_title": null,
-            "advisory_url": null,
-            "source": "CISA"
-        },
-        "nvd": {
-            "description": "An out-of-bounds (OOB) memory write flaw was found in the Linux kernel’s watch_queue event notification subsystem. This flaw can overwrite parts of the kernel state, potentially allowing a local user to gain privileged access or cause a denial of service on the system.",
-            "published": "2022-03-25T19:15:10.520",
-            "last_modified": "2026-08-27T04:16:39.223",
-            "cvss_score": 7.8,
-            "severity": "HIGH",
-            "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
-            "references": [
-                "http://packetstormsecurity.com/files/166770/Linux-watch_queue-Filter-Out-Of-Bounds-Write.html",
-                "http://packetstormsecurity.com/files/166815/Watch-Queue-Out-Of-Bounds-Write.html",
-                "https://bugzilla.redhat.com/show_bug.cgi?id=2063786",
-                "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=93ce93587d36493f2f86921fa79921b3cba63fbb",
-                "https://security.netapp.com/advisory/ntap-20220429-0001/",
-                "http://packetstormsecurity.com/files/166770/Linux-watch_queue-Filter-Out-Of-Bounds-Write.html",
-                "http://packetstormsecurity.com/files/166815/Watch-Queue-Out-Of-Bounds-Write.html",
-                "https://bugzilla.redhat.com/show_bug.cgi?id=2063786",
-                "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=93ce93587d36493f2f86921fa79921b3cba63fbb",
-                "https://security.netapp.com/advisory/ntap-20220429-0001/",
-                "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2022-0995"
-            ]
-        },
-        "kev": {
-            "known_exploited": true,
-            "date_added": "2026-08-26",
-            "vendor_project": "Linux",
-            "product": "Kernel",
-            "vulnerability_name": "Linux Kernel Out-of-Bounds Write Vulnerability",
-            "short_description": "Linux Kernel contains an out-of-bounds memory write vulnerability which could allow a local user to gain privileged access or cause a denial of service on the system.",
-            "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-            "due_date": "2026-09-09",
-            "source": "CISA KEV",
-            "source_url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json"
-        },
-        "exploitation_status": "KNOWN_EXPLOITED",
-        "provenance": {
-            "sources": [
-                {
-                    "name": "CISA",
-                    "type": "government_advisory",
-                    "url": "https://www.cisa.gov/news-events/alerts/2026/08/26/cisa-adds-six-known-exploited-vulnerabilities-catalog",
-                    "evidence": "CVE CVE-2022-0995 identified in CISA advisory"
-                },
-                {
-                    "name": "NVD",
-                    "type": "vulnerability_database",
-                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-0995",
-                    "evidence": "NVD record available for CVE-2022-0995"
-                }
-            ],
-            "source_count": 2,
-            "corroborated": true
-        },
-        "confidence": {
-            "score": 1.0,
-            "category": "HIGH",
-            "reasons": [
-                "Multiple sources corroborate the CTI record",
-                "CISA advisory evidence is available",
-                "NVD vulnerability record is available",
-                "Source evidence descriptions are available",
-                "Valid CVE identifier is present"
-            ]
-        },
-        "risk": {
-            "risk_level": "HIGH",
-            "cvss_score": 7.8,
-            "severity": "HIGH"
-        },
-        "pipeline": {
-            "enriched": "success",
-            "generated_at": "2026-09-10T14:49:19.189630+00:00"
-        }
-    },
-    {
         "cve_id": "CVE-2023-49105",
         "cisa": {
             "advisory_title": null,
@@ -478,7 +71,7 @@
         },
         "pipeline": {
             "enriched": "success",
-            "generated_at": "2026-09-10T14:49:19.189636+00:00"
+            "generated_at": "2026-09-11T11:11:48.602984+00:00"
         }
     },
     {
@@ -551,7 +144,7 @@
         },
         "pipeline": {
             "enriched": "success",
-            "generated_at": "2026-09-10T14:49:19.189642+00:00"
+            "generated_at": "2026-09-11T11:11:48.603138+00:00"
         }
     },
     {
@@ -622,7 +215,7 @@
         },
         "pipeline": {
             "enriched": "success",
-            "generated_at": "2026-09-10T14:49:19.189651+00:00"
+            "generated_at": "2026-09-11T11:11:48.603158+00:00"
         }
     },
     {
@@ -695,7 +288,7 @@
         },
         "pipeline": {
             "enriched": "success",
-            "generated_at": "2026-09-10T14:49:19.189660+00:00"
+            "generated_at": "2026-09-11T11:11:48.603183+00:00"
         }
     },
     {
@@ -793,7 +386,7 @@
         },
         "pipeline": {
             "enriched": "success",
-            "generated_at": "2026-09-10T14:49:19.189669+00:00"
+            "generated_at": "2026-09-11T11:11:48.603197+00:00"
         }
     },
     {
@@ -865,7 +458,7 @@
         },
         "pipeline": {
             "enriched": "success",
-            "generated_at": "2026-09-10T14:49:19.189683+00:00"
+            "generated_at": "2026-09-11T11:11:48.603208+00:00"
         }
     },
     {
@@ -941,7 +534,7 @@
         },
         "pipeline": {
             "enriched": "success",
-            "generated_at": "2026-09-10T14:49:19.189697+00:00"
+            "generated_at": "2026-09-11T11:11:48.603217+00:00"
         }
     },
     {
@@ -1016,7 +609,7 @@
         },
         "pipeline": {
             "enriched": "success",
-            "generated_at": "2026-09-10T14:49:19.189702+00:00"
+            "generated_at": "2026-09-11T11:11:48.603234+00:00"
         }
     },
     {
@@ -1090,7 +683,84 @@
         },
         "pipeline": {
             "enriched": "success",
-            "generated_at": "2026-09-10T14:49:19.189707+00:00"
+            "generated_at": "2026-09-11T11:11:48.603250+00:00"
+        }
+    },
+    {
+        "cve_id": "CVE-2026-67277",
+        "cisa": {
+            "advisory_title": null,
+            "advisory_url": null,
+            "source": "CISA"
+        },
+        "nvd": {
+            "description": "RouterOS accepts a \"related\" btest connection before the corresponding primary session has completed authentication. An unauthenticated client can use this state to start an IPv4 UDP test. With \"random-data=false\", the sender transmits an uninitialized tail from a kernel packet buffer. A separate unchecked, inverted packet-size interval causes unsigned integer underflow, anomalously large fragmented output, and can restart the RouterOS kernel.\n\n\n\nThis issue was fixed in versions: 6.49.21 (Long-term), 7.23.4 (Long-term) and 7.24.2 (Stable)",
+            "published": "2026-09-05T20:17:18.120",
+            "last_modified": "2026-09-11T04:17:44.900",
+            "cvss_score": null,
+            "severity": null,
+            "cvss_vector": null,
+            "references": [
+                "https://cert.pl/en/posts/2026/09/mikrotik-routeros-cve",
+                "https://cert.pl/en/posts/2026/09/vulnerabilities-in-mikrotik-routeros-actively-exploited/",
+                "https://forum.mikrotik.com/t/6-49-21-long-term-is-released/272802",
+                "https://forum.mikrotik.com/t/7-23-4-long-term-is-released/272801",
+                "https://forum.mikrotik.com/t/7-24-2-stable-is-released/272800",
+                "https://mikrotik.com/supportsec/september-2026-vulnerability/",
+                "https://npratley.net/reversing-mikrotiks-silent-patch-the-routeros-7-23-4-fix-they-wouldnt-explain/",
+                "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-67277"
+            ]
+        },
+        "kev": {
+            "known_exploited": true,
+            "date_added": "2026-09-10",
+            "vendor_project": "MikroTik",
+            "product": "RouterOS",
+            "vulnerability_name": "MikroTik RouterOS Missing Authentication for Critical Function Vulnerability",
+            "short_description": "MikroTik RouterOS contains a missing authenticaion for critical function vulnerability which allows kernel memory disclosure and denial of service in the btest service.",
+            "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+            "due_date": "2026-09-13",
+            "source": "CISA KEV",
+            "source_url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json"
+        },
+        "exploitation_status": "KNOWN_EXPLOITED",
+        "provenance": {
+            "sources": [
+                {
+                    "name": "CISA",
+                    "type": "government_advisory",
+                    "url": "https://www.cisa.gov/news-events/alerts/2026/09/10/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+                    "evidence": "CVE CVE-2026-67277 identified in CISA advisory"
+                },
+                {
+                    "name": "NVD",
+                    "type": "vulnerability_database",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-67277",
+                    "evidence": "NVD record available for CVE-2026-67277"
+                }
+            ],
+            "source_count": 2,
+            "corroborated": true
+        },
+        "confidence": {
+            "score": 1.0,
+            "category": "HIGH",
+            "reasons": [
+                "Multiple sources corroborate the CTI record",
+                "CISA advisory evidence is available",
+                "NVD vulnerability record is available",
+                "Source evidence descriptions are available",
+                "Valid CVE identifier is present"
+            ]
+        },
+        "risk": {
+            "risk_level": "UNKNOWN",
+            "cvss_score": null,
+            "severity": null
+        },
+        "pipeline": {
+            "enriched": "success",
+            "generated_at": "2026-09-11T11:11:48.603264+00:00"
         }
     },
     {
@@ -1161,7 +831,7 @@
         },
         "pipeline": {
             "enriched": "success",
-            "generated_at": "2026-09-10T14:49:19.189713+00:00"
+            "generated_at": "2026-09-11T11:11:48.603276+00:00"
         }
     },
     {
@@ -1233,7 +903,7 @@
         },
         "pipeline": {
             "enriched": "success",
-            "generated_at": "2026-09-10T14:49:19.189719+00:00"
+            "generated_at": "2026-09-11T11:11:48.603287+00:00"
         }
     },
     {
@@ -1304,7 +974,7 @@
         },
         "pipeline": {
             "enriched": "success",
-            "generated_at": "2026-09-10T14:49:19.189724+00:00"
+            "generated_at": "2026-09-11T11:11:48.603294+00:00"
         }
     },
     {
@@ -1376,7 +1046,7 @@
         },
         "pipeline": {
             "enriched": "success",
-            "generated_at": "2026-09-10T14:49:19.189733+00:00"
+            "generated_at": "2026-09-11T11:11:48.603301+00:00"
         }
     },
     {
@@ -1448,7 +1118,7 @@
         },
         "pipeline": {
             "enriched": "success",
-            "generated_at": "2026-09-10T14:49:19.189738+00:00"
+            "generated_at": "2026-09-11T11:11:48.603307+00:00"
         }
     },
     {
@@ -1519,7 +1189,7 @@
         },
         "pipeline": {
             "enriched": "success",
-            "generated_at": "2026-09-10T14:49:19.189747+00:00"
+            "generated_at": "2026-09-11T11:11:48.603312+00:00"
         }
     },
     {
@@ -1590,78 +1260,7 @@
         },
         "pipeline": {
             "enriched": "success",
-            "generated_at": "2026-09-10T14:49:19.189753+00:00"
-        }
-    },
-    {
-        "cve_id": "CVE-2026-8452",
-        "cisa": {
-            "advisory_title": null,
-            "advisory_url": null,
-            "source": "CISA"
-        },
-        "nvd": {
-            "description": "Memory overflow vulnerability NetScaler ADC and NetScaler Gateway leading to unpredictable or erroneous behavior and Denial of Service if the appliance is configured as a Gateway (SSL VPN, ICA Proxy, CVPN, RDP Proxy) or AAA virtual server",
-            "published": "2026-06-30T13:19:33.450",
-            "last_modified": "2026-08-27T04:18:00.787",
-            "cvss_score": 9.8,
-            "severity": "CRITICAL",
-            "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
-            "references": [
-                "https://support.citrix.com/support-home/kbsearch/article?articleNumber=CTX696604",
-                "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-8452"
-            ]
-        },
-        "kev": {
-            "known_exploited": true,
-            "date_added": "2026-08-26",
-            "vendor_project": "Citrix",
-            "product": "NetScaler ADC and NetScaler Gateway",
-            "vulnerability_name": "Citrix NetScaler ADC and NetScaler Gateway Improper Restriction of Operations within the Bounds of a Memory Buffer Vulnerability",
-            "short_description": "Citrix NetScaler ADC and NetScaler Gateway contain an improper restriction of operations within the bounds of a memory buffer vulnerability which could lead to denial of service. ",
-            "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-            "due_date": "2026-08-29",
-            "source": "CISA KEV",
-            "source_url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json"
-        },
-        "exploitation_status": "KNOWN_EXPLOITED",
-        "provenance": {
-            "sources": [
-                {
-                    "name": "CISA",
-                    "type": "government_advisory",
-                    "url": "https://www.cisa.gov/news-events/alerts/2026/08/26/cisa-adds-six-known-exploited-vulnerabilities-catalog",
-                    "evidence": "CVE CVE-2026-8452 identified in CISA advisory"
-                },
-                {
-                    "name": "NVD",
-                    "type": "vulnerability_database",
-                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-8452",
-                    "evidence": "NVD record available for CVE-2026-8452"
-                }
-            ],
-            "source_count": 2,
-            "corroborated": true
-        },
-        "confidence": {
-            "score": 1.0,
-            "category": "HIGH",
-            "reasons": [
-                "Multiple sources corroborate the CTI record",
-                "CISA advisory evidence is available",
-                "NVD vulnerability record is available",
-                "Source evidence descriptions are available",
-                "Valid CVE identifier is present"
-            ]
-        },
-        "risk": {
-            "risk_level": "CRITICAL",
-            "cvss_score": 9.8,
-            "severity": "CRITICAL"
-        },
-        "pipeline": {
-            "enriched": "success",
-            "generated_at": "2026-09-10T14:49:19.189758+00:00"
+            "generated_at": "2026-09-11T11:11:48.603328+00:00"
         }
     },
     {
@@ -1737,7 +1336,7 @@
         },
         "pipeline": {
             "enriched": "success",
-            "generated_at": "2026-09-10T14:49:19.189764+00:00"
+            "generated_at": "2026-09-11T11:11:48.603338+00:00"
         }
     },
     {
@@ -1808,7 +1407,84 @@
         },
         "pipeline": {
             "enriched": "success",
-            "generated_at": "2026-09-10T14:49:19.189772+00:00"
+            "generated_at": "2026-09-11T11:11:48.603346+00:00"
+        }
+    },
+    {
+        "cve_id": "CVE-2026-86060",
+        "cisa": {
+            "advisory_title": null,
+            "advisory_url": null,
+            "source": "CISA"
+        },
+        "nvd": {
+            "description": "RouterOS contains an argument-handling flaw in the SSH login\npath involving usernames that begin with a prohibited character, allowing for the trusted RouterOS policy mask to be changed, leading to privilege escalation. Exploitation requires an unauthenticated SSH session to reach the RouterOS login helper.This issue was fixed in versions: 6.49.21 (Long-term), 7.23.4 (Long-term) and 7.24.2 (Stable)",
+            "published": "2026-09-05T20:17:18.703",
+            "last_modified": "2026-09-11T04:18:02.840",
+            "cvss_score": null,
+            "severity": null,
+            "cvss_vector": null,
+            "references": [
+                "https://cert.pl/en/posts/2026/09/mikrotik-routeros-cve",
+                "https://cert.pl/en/posts/2026/09/vulnerabilities-in-mikrotik-routeros-actively-exploited/",
+                "https://forum.mikrotik.com/t/6-49-21-long-term-is-released/272802",
+                "https://forum.mikrotik.com/t/7-23-4-long-term-is-released/272801",
+                "https://forum.mikrotik.com/t/7-24-2-stable-is-released/272800",
+                "https://mikrotik.com/supportsec/september-2026-vulnerability/",
+                "https://npratley.net/reversing-mikrotiks-silent-patch-the-routeros-7-23-4-fix-they-wouldnt-explain/",
+                "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-86060"
+            ]
+        },
+        "kev": {
+            "known_exploited": true,
+            "date_added": "2026-09-10",
+            "vendor_project": "MikroTik",
+            "product": "RouterOS",
+            "vulnerability_name": "MikroTik RouterOS Improper Neutralization of Argument Delimiters in a Command Vulnerability",
+            "short_description": "MikroTik RouterOS contains an improper neutralization of argument delimiters in a command vulnerability which allows an attacked to change the trusted RouterOS policy mask, leading to privilege escalation.",
+            "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+            "due_date": "2026-09-13",
+            "source": "CISA KEV",
+            "source_url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json"
+        },
+        "exploitation_status": "KNOWN_EXPLOITED",
+        "provenance": {
+            "sources": [
+                {
+                    "name": "CISA",
+                    "type": "government_advisory",
+                    "url": "https://www.cisa.gov/news-events/alerts/2026/09/10/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+                    "evidence": "CVE CVE-2026-86060 identified in CISA advisory"
+                },
+                {
+                    "name": "NVD",
+                    "type": "vulnerability_database",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-86060",
+                    "evidence": "NVD record available for CVE-2026-86060"
+                }
+            ],
+            "source_count": 2,
+            "corroborated": true
+        },
+        "confidence": {
+            "score": 1.0,
+            "category": "HIGH",
+            "reasons": [
+                "Multiple sources corroborate the CTI record",
+                "CISA advisory evidence is available",
+                "NVD vulnerability record is available",
+                "Source evidence descriptions are available",
+                "Valid CVE identifier is present"
+            ]
+        },
+        "risk": {
+            "risk_level": "UNKNOWN",
+            "cvss_score": null,
+            "severity": null
+        },
+        "pipeline": {
+            "enriched": "success",
+            "generated_at": "2026-09-11T11:11:48.603355+00:00"
         }
     },
     {
@@ -1879,7 +1555,7 @@
         },
         "pipeline": {
             "enriched": "success",
-            "generated_at": "2026-09-10T14:49:19.189778+00:00"
+            "generated_at": "2026-09-11T11:11:48.603369+00:00"
         }
     },
     {
@@ -1951,7 +1627,7 @@
         },
         "pipeline": {
             "enriched": "success",
-            "generated_at": "2026-09-10T14:49:19.189783+00:00"
+            "generated_at": "2026-09-11T11:11:48.603379+00:00"
         }
     },
     {
@@ -2024,7 +1700,7 @@
         },
         "pipeline": {
             "enriched": "success",
-            "generated_at": "2026-09-10T14:49:19.189792+00:00"
+            "generated_at": "2026-09-11T11:11:48.603392+00:00"
         }
     }
 ]

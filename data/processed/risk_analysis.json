@@ -1,5 +1,29 @@
 [
     {
+        "cve_id": "CVE-2026-67277",
+        "nvd_available": true,
+        "cvss_score": null,
+        "severity": null,
+        "risk_level": "UNKNOWN",
+        "published": "2026-09-05T20:17:18.120",
+        "last_modified": "2026-09-11T04:17:44.900",
+        "cisa_advisory": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+        "advisory_url": "https://www.cisa.gov/news-events/alerts/2026/09/10/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+        "enrichment_status": "success"
+    },
+    {
+        "cve_id": "CVE-2026-86060",
+        "nvd_available": true,
+        "cvss_score": null,
+        "severity": null,
+        "risk_level": "UNKNOWN",
+        "published": "2026-09-05T20:17:18.703",
+        "last_modified": "2026-09-11T04:18:02.840",
+        "cisa_advisory": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+        "advisory_url": "https://www.cisa.gov/news-events/alerts/2026/09/10/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+        "enrichment_status": "success"
+    },
+    {
         "cve_id": "CVE-2025-25249",
         "nvd_available": true,
         "cvss_score": 8.1,
@@ -249,78 +273,6 @@
         "last_modified": "2026-08-28T12:21:47.053",
         "cisa_advisory": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
         "advisory_url": "https://www.cisa.gov/news-events/alerts/2026/08/27/cisa-adds-three-known-exploited-vulnerabilities-catalog",
-        "enrichment_status": "success"
-    },
-    {
-        "cve_id": "CVE-2015-3246",
-        "nvd_available": true,
-        "cvss_score": 5.1,
-        "severity": "MEDIUM",
-        "risk_level": "MEDIUM",
-        "published": "2015-08-11T14:59:07.040",
-        "last_modified": "2026-08-27T04:16:36.600",
-        "cisa_advisory": "CISA Adds Six Known Exploited Vulnerabilities to Catalog",
-        "advisory_url": "https://www.cisa.gov/news-events/alerts/2026/08/26/cisa-adds-six-known-exploited-vulnerabilities-catalog",
-        "enrichment_status": "success"
-    },
-    {
-        "cve_id": "CVE-2015-5287",
-        "nvd_available": true,
-        "cvss_score": 7.8,
-        "severity": "HIGH",
-        "risk_level": "HIGH",
-        "published": "2015-12-07T18:59:02.230",
-        "last_modified": "2026-08-27T04:16:38.280",
-        "cisa_advisory": "CISA Adds Six Known Exploited Vulnerabilities to Catalog",
-        "advisory_url": "https://www.cisa.gov/news-events/alerts/2026/08/26/cisa-adds-six-known-exploited-vulnerabilities-catalog",
-        "enrichment_status": "success"
-    },
-    {
-        "cve_id": "CVE-2019-1068",
-        "nvd_available": true,
-        "cvss_score": 8.8,
-        "severity": "HIGH",
-        "risk_level": "HIGH",
-        "published": "2019-07-15T19:15:16.983",
-        "last_modified": "2026-08-27T04:16:38.583",
-        "cisa_advisory": "CISA Adds Six Known Exploited Vulnerabilities to Catalog",
-        "advisory_url": "https://www.cisa.gov/news-events/alerts/2026/08/26/cisa-adds-six-known-exploited-vulnerabilities-catalog",
-        "enrichment_status": "success"
-    },
-    {
-        "cve_id": "CVE-2021-23758",
-        "nvd_available": true,
-        "cvss_score": 8.1,
-        "severity": "HIGH",
-        "risk_level": "HIGH",
-        "published": "2021-12-03T20:15:07.557",
-        "last_modified": "2026-08-27T04:16:38.863",
-        "cisa_advisory": "CISA Adds Six Known Exploited Vulnerabilities to Catalog",
-        "advisory_url": "https://www.cisa.gov/news-events/alerts/2026/08/26/cisa-adds-six-known-exploited-vulnerabilities-catalog",
-        "enrichment_status": "success"
-    },
-    {
-        "cve_id": "CVE-2022-0995",
-        "nvd_available": true,
-        "cvss_score": 7.8,
-        "severity": "HIGH",
-        "risk_level": "HIGH",
-        "published": "2022-03-25T19:15:10.520",
-        "last_modified": "2026-08-27T04:16:39.223",
-        "cisa_advisory": "CISA Adds Six Known Exploited Vulnerabilities to Catalog",
-        "advisory_url": "https://www.cisa.gov/news-events/alerts/2026/08/26/cisa-adds-six-known-exploited-vulnerabilities-catalog",
-        "enrichment_status": "success"
-    },
-    {
-        "cve_id": "CVE-2026-8452",
-        "nvd_available": true,
-        "cvss_score": 9.8,
-        "severity": "CRITICAL",
-        "risk_level": "CRITICAL",
-        "published": "2026-06-30T13:19:33.450",
-        "last_modified": "2026-08-27T04:18:00.787",
-        "cisa_advisory": "CISA Adds Six Known Exploited Vulnerabilities to Catalog",
-        "advisory_url": "https://www.cisa.gov/news-events/alerts/2026/08/26/cisa-adds-six-known-exploited-vulnerabilities-catalog",
         "enrichment_status": "success"
     }
 ]

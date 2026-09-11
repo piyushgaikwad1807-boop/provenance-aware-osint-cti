@@ -131,6 +131,10 @@ PIPELINE_STEPS = [
     (   "Analyze historical CTI trends",
         "src/trend_analysis.py"
     ),
+
+    (   "Generate automated CTI report",
+        "src/generate_report.py"
+    ),
 ]
 
 

@@ -1,5 +1,47 @@
 [
     {
+        "cve_id": "CVE-2026-67277",
+        "sources": [
+            {
+                "name": "CISA",
+                "type": "government_advisory",
+                "url": "https://www.cisa.gov/news-events/alerts/2026/09/10/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+                "evidence": "CVE CVE-2026-67277 identified in CISA advisory"
+            },
+            {
+                "name": "NVD",
+                "type": "vulnerability_database",
+                "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-67277",
+                "evidence": "NVD record available for CVE-2026-67277"
+            }
+        ],
+        "source_count": 2,
+        "corroborated": true,
+        "confidence": 0.9,
+        "generated_at": "2026-09-11T11:11:46.830576+00:00"
+    },
+    {
+        "cve_id": "CVE-2026-86060",
+        "sources": [
+            {
+                "name": "CISA",
+                "type": "government_advisory",
+                "url": "https://www.cisa.gov/news-events/alerts/2026/09/10/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+                "evidence": "CVE CVE-2026-86060 identified in CISA advisory"
+            },
+            {
+                "name": "NVD",
+                "type": "vulnerability_database",
+                "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-86060",
+                "evidence": "NVD record available for CVE-2026-86060"
+            }
+        ],
+        "source_count": 2,
+        "corroborated": true,
+        "confidence": 0.9,
+        "generated_at": "2026-09-11T11:11:46.830669+00:00"
+    },
+    {
         "cve_id": "CVE-2025-25249",
         "sources": [
             {
@@ -18,7 +60,7 @@
         "source_count": 2,
         "corroborated": true,
         "confidence": 0.9,
-        "generated_at": "2026-09-10T14:49:17.599448+00:00"
+        "generated_at": "2026-09-11T11:11:46.830694+00:00"
     },
     {
         "cve_id": "CVE-2026-19490",
@@ -39,7 +81,7 @@
         "source_count": 2,
         "corroborated": true,
         "confidence": 0.9,
-        "generated_at": "2026-09-10T14:49:17.599510+00:00"
+        "generated_at": "2026-09-11T11:11:46.830703+00:00"
     },
     {
         "cve_id": "CVE-2026-20079",
@@ -60,7 +102,7 @@
         "source_count": 2,
         "corroborated": true,
         "confidence": 0.9,
-        "generated_at": "2026-09-10T14:49:17.599518+00:00"
+        "generated_at": "2026-09-11T11:11:46.830711+00:00"
     },
     {
         "cve_id": "CVE-2026-87491",
@@ -81,7 +123,7 @@
         "source_count": 2,
         "corroborated": true,
         "confidence": 0.9,
-        "generated_at": "2026-09-10T14:49:17.599523+00:00"
+        "generated_at": "2026-09-11T11:11:46.830717+00:00"
     },
     {
         "cve_id": "CVE-2026-75650",
@@ -102,7 +144,7 @@
         "source_count": 2,
         "corroborated": true,
         "confidence": 0.9,
-        "generated_at": "2026-09-10T14:49:17.599527+00:00"
+        "generated_at": "2026-09-11T11:11:46.830723+00:00"
     },
     {
         "cve_id": "CVE-2026-81963",
@@ -123,7 +165,7 @@
         "source_count": 2,
         "corroborated": true,
         "confidence": 0.9,
-        "generated_at": "2026-09-10T14:49:17.599531+00:00"
+        "generated_at": "2026-09-11T11:11:46.830729+00:00"
     },
     {
         "cve_id": "CVE-2026-85880",
@@ -144,7 +186,7 @@
         "source_count": 2,
         "corroborated": true,
         "confidence": 0.9,
-        "generated_at": "2026-09-10T14:49:17.599534+00:00"
+        "generated_at": "2026-09-11T11:11:46.830735+00:00"
     },
     {
         "cve_id": "CVE-2026-86218",
@@ -165,7 +207,7 @@
         "source_count": 2,
         "corroborated": true,
         "confidence": 0.9,
-        "generated_at": "2026-09-10T14:49:17.599538+00:00"
+        "generated_at": "2026-09-11T11:11:46.830741+00:00"
     },
     {
         "cve_id": "CVE-2026-85046",
@@ -186,7 +228,7 @@
         "source_count": 2,
         "corroborated": true,
         "confidence": 0.9,
-        "generated_at": "2026-09-10T14:49:17.599541+00:00"
+        "generated_at": "2026-09-11T11:11:46.830747+00:00"
     },
     {
         "cve_id": "CVE-2026-48710",
@@ -207,7 +249,7 @@
         "source_count": 2,
         "corroborated": true,
         "confidence": 0.9,
-        "generated_at": "2026-09-10T14:49:17.599550+00:00"
+        "generated_at": "2026-09-11T11:11:46.830753+00:00"
     },
     {
         "cve_id": "CVE-2026-49869",
@@ -228,7 +270,7 @@
         "source_count": 2,
         "corroborated": true,
         "confidence": 0.9,
-        "generated_at": "2026-09-10T14:49:17.599558+00:00"
+        "generated_at": "2026-09-11T11:11:46.830911+00:00"
     },
     {
         "cve_id": "CVE-2026-59822",
@@ -249,7 +291,7 @@
         "source_count": 2,
         "corroborated": true,
         "confidence": 0.9,
-        "generated_at": "2026-09-10T14:49:17.599562+00:00"
+        "generated_at": "2026-09-11T11:11:46.830934+00:00"
     },
     {
         "cve_id": "CVE-2026-82329",
@@ -270,7 +312,7 @@
         "source_count": 2,
         "corroborated": true,
         "confidence": 0.9,
-        "generated_at": "2026-09-10T14:49:17.599565+00:00"
+        "generated_at": "2026-09-11T11:11:46.830941+00:00"
     },
     {
         "cve_id": "CVE-2026-83548",
@@ -291,7 +333,7 @@
         "source_count": 2,
         "corroborated": true,
         "confidence": 0.9,
-        "generated_at": "2026-09-10T14:49:17.599574+00:00"
+        "generated_at": "2026-09-11T11:11:46.830958+00:00"
     },
     {
         "cve_id": "CVE-2026-83549",
@@ -312,7 +354,7 @@
         "source_count": 2,
         "corroborated": true,
         "confidence": 0.9,
-        "generated_at": "2026-09-10T14:49:17.599578+00:00"
+        "generated_at": "2026-09-11T11:11:46.830965+00:00"
     },
     {
         "cve_id": "CVE-2026-9586",
@@ -333,7 +375,7 @@
         "source_count": 2,
         "corroborated": true,
         "confidence": 0.9,
-        "generated_at": "2026-09-10T14:49:17.599581+00:00"
+        "generated_at": "2026-09-11T11:11:46.830977+00:00"
     },
     {
         "cve_id": "CVE-2026-81578",
@@ -354,7 +396,7 @@
         "source_count": 2,
         "corroborated": true,
         "confidence": 0.9,
-        "generated_at": "2026-09-10T14:49:17.599584+00:00"
+        "generated_at": "2026-09-11T11:11:46.830984+00:00"
     },
     {
         "cve_id": "CVE-2026-82078",
@@ -375,7 +417,7 @@
         "source_count": 2,
         "corroborated": true,
         "confidence": 0.9,
-        "generated_at": "2026-09-10T14:49:17.599588+00:00"
+        "generated_at": "2026-09-11T11:11:46.830990+00:00"
     },
     {
         "cve_id": "CVE-2023-49105",
@@ -396,7 +438,7 @@
         "source_count": 2,
         "corroborated": true,
         "confidence": 0.9,
-        "generated_at": "2026-09-10T14:49:17.599591+00:00"
+        "generated_at": "2026-09-11T11:11:46.830996+00:00"
     },
     {
         "cve_id": "CVE-2026-53362",
@@ -417,7 +459,7 @@
         "source_count": 2,
         "corroborated": true,
         "confidence": 0.9,
-        "generated_at": "2026-09-10T14:49:17.599595+00:00"
+        "generated_at": "2026-09-11T11:11:46.831003+00:00"
     },
     {
         "cve_id": "CVE-2026-66384",
@@ -438,132 +480,6 @@
         "source_count": 2,
         "corroborated": true,
         "confidence": 0.9,
-        "generated_at": "2026-09-10T14:49:17.599598+00:00"
-    },
-    {
-        "cve_id": "CVE-2015-3246",
-        "sources": [
-            {
-                "name": "CISA",
-                "type": "government_advisory",
-                "url": "https://www.cisa.gov/news-events/alerts/2026/08/26/cisa-adds-six-known-exploited-vulnerabilities-catalog",
-                "evidence": "CVE CVE-2015-3246 identified in CISA advisory"
-            },
-            {
-                "name": "NVD",
-                "type": "vulnerability_database",
-                "url": "https://nvd.nist.gov/vuln/detail/CVE-2015-3246",
-                "evidence": "NVD record available for CVE-2015-3246"
-            }
-        ],
-        "source_count": 2,
-        "corroborated": true,
-        "confidence": 0.9,
-        "generated_at": "2026-09-10T14:49:17.599605+00:00"
-    },
-    {
-        "cve_id": "CVE-2015-5287",
-        "sources": [
-            {
-                "name": "CISA",
-                "type": "government_advisory",
-                "url": "https://www.cisa.gov/news-events/alerts/2026/08/26/cisa-adds-six-known-exploited-vulnerabilities-catalog",
-                "evidence": "CVE CVE-2015-5287 identified in CISA advisory"
-            },
-            {
-                "name": "NVD",
-                "type": "vulnerability_database",
-                "url": "https://nvd.nist.gov/vuln/detail/CVE-2015-5287",
-                "evidence": "NVD record available for CVE-2015-5287"
-            }
-        ],
-        "source_count": 2,
-        "corroborated": true,
-        "confidence": 0.9,
-        "generated_at": "2026-09-10T14:49:17.599608+00:00"
-    },
-    {
-        "cve_id": "CVE-2019-1068",
-        "sources": [
-            {
-                "name": "CISA",
-                "type": "government_advisory",
-                "url": "https://www.cisa.gov/news-events/alerts/2026/08/26/cisa-adds-six-known-exploited-vulnerabilities-catalog",
-                "evidence": "CVE CVE-2019-1068 identified in CISA advisory"
-            },
-            {
-                "name": "NVD",
-                "type": "vulnerability_database",
-                "url": "https://nvd.nist.gov/vuln/detail/CVE-2019-1068",
-                "evidence": "NVD record available for CVE-2019-1068"
-            }
-        ],
-        "source_count": 2,
-        "corroborated": true,
-        "confidence": 0.9,
-        "generated_at": "2026-09-10T14:49:17.599612+00:00"
-    },
-    {
-        "cve_id": "CVE-2021-23758",
-        "sources": [
-            {
-                "name": "CISA",
-                "type": "government_advisory",
-                "url": "https://www.cisa.gov/news-events/alerts/2026/08/26/cisa-adds-six-known-exploited-vulnerabilities-catalog",
-                "evidence": "CVE CVE-2021-23758 identified in CISA advisory"
-            },
-            {
-                "name": "NVD",
-                "type": "vulnerability_database",
-                "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-23758",
-                "evidence": "NVD record available for CVE-2021-23758"
-            }
-        ],
-        "source_count": 2,
-        "corroborated": true,
-        "confidence": 0.9,
-        "generated_at": "2026-09-10T14:49:17.599615+00:00"
-    },
-    {
-        "cve_id": "CVE-2022-0995",
-        "sources": [
-            {
-                "name": "CISA",
-                "type": "government_advisory",
-                "url": "https://www.cisa.gov/news-events/alerts/2026/08/26/cisa-adds-six-known-exploited-vulnerabilities-catalog",
-                "evidence": "CVE CVE-2022-0995 identified in CISA advisory"
-            },
-            {
-                "name": "NVD",
-                "type": "vulnerability_database",
-                "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-0995",
-                "evidence": "NVD record available for CVE-2022-0995"
-            }
-        ],
-        "source_count": 2,
-        "corroborated": true,
-        "confidence": 0.9,
-        "generated_at": "2026-09-10T14:49:17.599623+00:00"
-    },
-    {
-        "cve_id": "CVE-2026-8452",
-        "sources": [
-            {
-                "name": "CISA",
-                "type": "government_advisory",
-                "url": "https://www.cisa.gov/news-events/alerts/2026/08/26/cisa-adds-six-known-exploited-vulnerabilities-catalog",
-                "evidence": "CVE CVE-2026-8452 identified in CISA advisory"
-            },
-            {
-                "name": "NVD",
-                "type": "vulnerability_database",
-                "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-8452",
-                "evidence": "NVD record available for CVE-2026-8452"
-            }
-        ],
-        "source_count": 2,
-        "corroborated": true,
-        "confidence": 0.9,
-        "generated_at": "2026-09-10T14:49:17.599626+00:00"
+        "generated_at": "2026-09-11T11:11:46.831009+00:00"
     }
 ]
