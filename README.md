@@ -2548,3 +2548,27 @@ The new module is:
 
 ```text
 src/train_validation_experiment.py
+
+
+
+## Day 25 - Correlation Model Ablation Study
+
+An ablation study was added to investigate the contribution of
+individual evidence signals to the proposed CTI correlation model.
+
+The new module is:
+
+```text
+src/ablation_study.py
+
+
+## Day 26 - Statistical Analysis
+
+An exploratory statistical analysis layer was added to evaluate
+the distributions of CTI correlation scores and related evidence
+attributes.
+
+The new module is:
+
+```text
+src/statistical_analysis.py

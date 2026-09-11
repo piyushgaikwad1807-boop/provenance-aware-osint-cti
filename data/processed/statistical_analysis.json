@@ -1,0 +1,114 @@
+{
+  "analysis": "Exploratory statistical analysis",
+  "dataset": {
+    "correlation_records": 23,
+    "final_cti_records": 23
+  },
+  "correlation_score_statistics": {
+    "count": 0,
+    "mean": null,
+    "median": null,
+    "minimum": null,
+    "maximum": null,
+    "standard_deviation": null,
+    "q1": null,
+    "q3": null,
+    "iqr": null
+  },
+  "group_comparisons": {
+    "known_exploited": {
+      "count": 0,
+      "mean": null,
+      "median": null,
+      "minimum": null,
+      "maximum": null,
+      "standard_deviation": null,
+      "q1": null,
+      "q3": null,
+      "iqr": null
+    },
+    "not_in_kev": {
+      "count": 0,
+      "mean": null,
+      "median": null,
+      "minimum": null,
+      "maximum": null,
+      "standard_deviation": null,
+      "q1": null,
+      "q3": null,
+      "iqr": null
+    },
+    "known_exploited_vs_not_in_kev": {
+      "cohens_d": null
+    },
+    "corroborated": {
+      "count": 0,
+      "mean": null,
+      "median": null,
+      "minimum": null,
+      "maximum": null,
+      "standard_deviation": null,
+      "q1": null,
+      "q3": null,
+      "iqr": null
+    },
+    "not_corroborated": {
+      "count": 0,
+      "mean": null,
+      "median": null,
+      "minimum": null,
+      "maximum": null,
+      "standard_deviation": null,
+      "q1": null,
+      "q3": null,
+      "iqr": null
+    },
+    "corroborated_vs_not_corroborated": {
+      "cohens_d": null
+    }
+  },
+  "cvss_statistics": {
+    "count": 21,
+    "mean": 8.8,
+    "median": 9.1,
+    "minimum": 5.3,
+    "maximum": 10.0,
+    "standard_deviation": 1.3084,
+    "q1": 7.8,
+    "q3": 9.8,
+    "iqr": 2.0
+  },
+  "confidence_statistics": {
+    "count": 23,
+    "mean": 1.0,
+    "median": 1.0,
+    "minimum": 1.0,
+    "maximum": 1.0,
+    "standard_deviation": 0.0,
+    "q1": 1.0,
+    "q3": 1.0,
+    "iqr": 0.0
+  },
+  "methodology": {
+    "descriptive_statistics": [
+      "mean",
+      "median",
+      "minimum",
+      "maximum",
+      "standard_deviation",
+      "q1",
+      "q3",
+      "iqr"
+    ],
+    "effect_size": "Cohen's d",
+    "purpose": "Exploratory analysis of score distributions"
+  },
+  "limitations": [
+    "The dataset is small.",
+    "CISA KEV membership is used as a proxy exploitation label.",
+    "The correlation model uses heuristic weights.",
+    "Statistical results should not be interpreted as proof of generalization.",
+    "Cohen's d may be unstable for very small groups.",
+    "The analysis is exploratory rather than confirmatory."
+  ]
+}

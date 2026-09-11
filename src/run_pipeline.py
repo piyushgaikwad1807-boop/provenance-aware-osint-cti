@@ -134,6 +134,10 @@ PIPELINE_STEPS = [
         "src/ablation_study.py"
     ),
 
+    (   "Run statistical analysis",
+        "src/statistical_analysis.py"
+    ),
+
     (   "Generate automated CTI report",
         "src/generate_report.py"
     ),
