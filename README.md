@@ -2524,3 +2524,27 @@ A new module was created:
 
 ```text
 src/build_ground_truth.py
+
+
+## Day 23 - Correlation Threshold Sensitivity Analysis
+
+A threshold sensitivity analysis was added to evaluate how the
+performance of the CTI correlation model changes when different
+decision thresholds are applied.
+
+The new module is:
+
+```text
+src/threshold_analysis.py
+
+
+## Day 24 - Train/Validation-Style Correlation Experiment
+
+A train/validation-style experimental framework was added to
+reduce the risk of evaluating a threshold on the same data used
+to select that threshold.
+
+The new module is:
+
+```text
+src/train_validation_experiment.py

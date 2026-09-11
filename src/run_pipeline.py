@@ -122,6 +122,14 @@ PIPELINE_STEPS = [
         "src/build_ground_truth.py"
     ),
 
+    (   "Analyze correlation thresholds",
+        "src/threshold_analysis.py"
+    ),
+
+    (   "Run train-validation correlation experiment",
+        "src/train_validation_experiment.py"
+    ),
+
     (   "Generate automated CTI report",
         "src/generate_report.py"
     ),

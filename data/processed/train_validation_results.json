@@ -1,0 +1,160 @@
+{
+  "experiment_metadata": {
+    "generated_at": "2026-09-11T15:32:07.474313+00:00",
+    "method": "Deterministic train/validation-style threshold experiment.",
+    "training_ratio": 0.7,
+    "validation_ratio": 0.30000000000000004,
+    "thresholds_tested": [
+      20,
+      30,
+      40,
+      50,
+      60,
+      70,
+      80
+    ]
+  },
+  "dataset": {
+    "total_labeled_records": 23,
+    "training_records": 16,
+    "validation_records": 7
+  },
+  "training": {
+    "threshold_results": [
+      {
+        "threshold": 20,
+        "confusion_matrix": {
+          "true_positive": 16,
+          "true_negative": 0,
+          "false_positive": 0,
+          "false_negative": 0
+        },
+        "metrics": {
+          "accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0
+        }
+      },
+      {
+        "threshold": 30,
+        "confusion_matrix": {
+          "true_positive": 16,
+          "true_negative": 0,
+          "false_positive": 0,
+          "false_negative": 0
+        },
+        "metrics": {
+          "accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0
+        }
+      },
+      {
+        "threshold": 40,
+        "confusion_matrix": {
+          "true_positive": 16,
+          "true_negative": 0,
+          "false_positive": 0,
+          "false_negative": 0
+        },
+        "metrics": {
+          "accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0
+        }
+      },
+      {
+        "threshold": 50,
+        "confusion_matrix": {
+          "true_positive": 16,
+          "true_negative": 0,
+          "false_positive": 0,
+          "false_negative": 0
+        },
+        "metrics": {
+          "accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0
+        }
+      },
+      {
+        "threshold": 60,
+        "confusion_matrix": {
+          "true_positive": 16,
+          "true_negative": 0,
+          "false_positive": 0,
+          "false_negative": 0
+        },
+        "metrics": {
+          "accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0
+        }
+      },
+      {
+        "threshold": 70,
+        "confusion_matrix": {
+          "true_positive": 16,
+          "true_negative": 0,
+          "false_positive": 0,
+          "false_negative": 0
+        },
+        "metrics": {
+          "accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0
+        }
+      },
+      {
+        "threshold": 80,
+        "confusion_matrix": {
+          "true_positive": 9,
+          "true_negative": 0,
+          "false_positive": 0,
+          "false_negative": 7
+        },
+        "metrics": {
+          "accuracy": 0.5625,
+          "precision": 1.0,
+          "recall": 0.5625,
+          "f1_score": 0.72
+        }
+      }
+    ],
+    "selected_threshold": 20,
+    "selected_training_metrics": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0
+    }
+  },
+  "validation": {
+    "threshold_used": 20,
+    "confusion_matrix": {
+      "true_positive": 7,
+      "true_negative": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    },
+    "metrics": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0
+    }
+  },
+  "limitations": [
+    "The dataset is currently very small.",
+    "The train/validation split is deterministic and is not a substitute for cross-validation.",
+    "The benchmark uses CISA KEV membership as a proxy exploitation label.",
+    "Threshold selection and validation are still based on a limited benchmark.",
+    "The experiment does not establish general real-world predictive accuracy."
+  ]
+}
