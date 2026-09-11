@@ -90,37 +90,7 @@ PIPELINE_STEPS = [
     ),
 
     (
-        "Build final CTI dataset",
-        "src/build_final_cti.py"
-    ),
-
-    (
-        "Validate final CTI dataset",
-        "src/validate_cti.py"
-    ),
-
-    (
         "Evaluate CTI dataset",
-        "src/evaluate_cti.py"
-    ),
-
-    (   "Validate final CTI dataset",
-        "src/validate_cti.py"
-    ),
-
-    (   "Evaluate CTI dataset",
-        "src/evaluate_cti.py"
-    ),
-
-    (   "Save CTI historical snapshot",
-        "src/save_snapshot.py"
-    ),
-
-    (   "Validate final CTI dataset",
-        "src/validate_cti.py"
-    ),
-
-    (   "Evaluate CTI dataset",
         "src/evaluate_cti.py"
     ),
 
@@ -132,9 +102,14 @@ PIPELINE_STEPS = [
         "src/trend_analysis.py"
     ),
 
+    (   "Run explainable threat correlation",
+        "src/threat_correlation.py"
+    ),
+
     (   "Generate automated CTI report",
         "src/generate_report.py"
     ),
+
 ]
 
 

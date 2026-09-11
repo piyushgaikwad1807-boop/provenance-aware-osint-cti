@@ -2452,3 +2452,33 @@ Research Visualization
 ```
 
 This provides a foundation for future experiments involving CTI changes over time and strengthens the project's preparation for an IEEE-style research paper.
+
+
+## Day 18 - Automated CTI Report Generation
+
+An automated CTI report generation layer was added to the project.
+
+The purpose of this stage is to automatically convert the processed
+CTI dataset into a structured, human-readable research report.
+
+### Report Generator
+
+A new Python module was created:
+
+```text
+src/generate_report.py
+
+
+
+
+
+## Day 19 - Explainable Threat Correlation
+
+An explainable threat correlation engine was introduced to
+combine multiple CTI evidence signals into a transparent
+correlation score.
+
+The new module is:
+
+```text
+src/threat_correlation.py
