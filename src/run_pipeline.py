@@ -110,6 +110,10 @@ PIPELINE_STEPS = [
         "src/evaluate_correlation.py"
     ),
 
+    (   "Build improved signal-based correlation",
+        "src/improved_correlation.py"
+    ),
+
     (   "Generate automated CTI report",
         "src/generate_report.py"
     ),
