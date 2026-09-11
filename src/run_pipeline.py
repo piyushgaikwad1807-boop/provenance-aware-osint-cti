@@ -130,6 +130,10 @@ PIPELINE_STEPS = [
         "src/train_validation_experiment.py"
     ),
 
+    (   "Run correlation ablation study",
+        "src/ablation_study.py"
+    ),
+
     (   "Generate automated CTI report",
         "src/generate_report.py"
     ),

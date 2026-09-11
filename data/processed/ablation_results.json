@@ -1,0 +1,164 @@
+{
+  "analysis_metadata": {
+    "generated_at": "2026-09-11T15:38:06.647279+00:00",
+    "method": "One-factor-at-a-time ablation study of the heuristic CTI correlation model.",
+    "threshold": 50,
+    "signals_tested": [
+      "cisa_evidence",
+      "nvd_evidence",
+      "kev_exploitation",
+      "source_corroboration",
+      "cvss_severity",
+      "evidence_confidence"
+    ]
+  },
+  "results": [
+    {
+      "experiment": "FULL_MODEL",
+      "removed_signal": null,
+      "score_scale": "Original weighted score",
+      "confusion_matrix": {
+        "true_positive": 23,
+        "true_negative": 0,
+        "false_positive": 0,
+        "false_negative": 0
+      },
+      "metrics": {
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0
+      },
+      "evaluated_records": 23,
+      "f1_change": 0.0
+    },
+    {
+      "experiment": "REMOVE_CISA_EVIDENCE",
+      "removed_signal": "cisa_evidence",
+      "score_scale": "Score after removing the selected signal",
+      "confusion_matrix": {
+        "true_positive": 23,
+        "true_negative": 0,
+        "false_positive": 0,
+        "false_negative": 0
+      },
+      "metrics": {
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0
+      },
+      "evaluated_records": 23,
+      "f1_change": 0.0
+    },
+    {
+      "experiment": "REMOVE_NVD_EVIDENCE",
+      "removed_signal": "nvd_evidence",
+      "score_scale": "Score after removing the selected signal",
+      "confusion_matrix": {
+        "true_positive": 23,
+        "true_negative": 0,
+        "false_positive": 0,
+        "false_negative": 0
+      },
+      "metrics": {
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0
+      },
+      "evaluated_records": 23,
+      "f1_change": 0.0
+    },
+    {
+      "experiment": "REMOVE_KEV_EXPLOITATION",
+      "removed_signal": "kev_exploitation",
+      "score_scale": "Score after removing the selected signal",
+      "confusion_matrix": {
+        "true_positive": 11,
+        "true_negative": 0,
+        "false_positive": 0,
+        "false_negative": 12
+      },
+      "metrics": {
+        "accuracy": 0.4783,
+        "precision": 1.0,
+        "recall": 0.4783,
+        "f1_score": 0.6471
+      },
+      "evaluated_records": 23,
+      "f1_change": -0.3529
+    },
+    {
+      "experiment": "REMOVE_SOURCE_CORROBORATION",
+      "removed_signal": "source_corroboration",
+      "score_scale": "Score after removing the selected signal",
+      "confusion_matrix": {
+        "true_positive": 23,
+        "true_negative": 0,
+        "false_positive": 0,
+        "false_negative": 0
+      },
+      "metrics": {
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0
+      },
+      "evaluated_records": 23,
+      "f1_change": 0.0
+    },
+    {
+      "experiment": "REMOVE_CVSS_SEVERITY",
+      "removed_signal": "cvss_severity",
+      "score_scale": "Score after removing the selected signal",
+      "confusion_matrix": {
+        "true_positive": 23,
+        "true_negative": 0,
+        "false_positive": 0,
+        "false_negative": 0
+      },
+      "metrics": {
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0
+      },
+      "evaluated_records": 23,
+      "f1_change": 0.0
+    },
+    {
+      "experiment": "REMOVE_EVIDENCE_CONFIDENCE",
+      "removed_signal": "evidence_confidence",
+      "score_scale": "Score after removing the selected signal",
+      "confusion_matrix": {
+        "true_positive": 23,
+        "true_negative": 0,
+        "false_positive": 0,
+        "false_negative": 0
+      },
+      "metrics": {
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0
+      },
+      "evaluated_records": 23,
+      "f1_change": 0.0
+    }
+  ],
+  "interpretation": {
+    "most_performance_sensitive_signal": "kev_exploitation",
+    "largest_f1_change": -0.3529,
+    "least_performance_sensitive_signal": "cisa_evidence"
+  },
+  "limitations": [
+    "The ablation study uses the same benchmark dataset for all experiments.",
+    "The benchmark uses CISA KEV membership as a proxy exploitation label.",
+    "The dataset is small.",
+    "The selected threshold is fixed at 50 for comparability between experiments.",
+    "The model weights are heuristic.",
+    "Signals may be correlated with each other.",
+    "Removing one signal does not prove that the signal is causally responsible for performance."
+  ]
+}
