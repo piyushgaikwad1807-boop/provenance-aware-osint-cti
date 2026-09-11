@@ -2482,3 +2482,14 @@ The new module is:
 
 ```text
 src/threat_correlation.py
+
+
+## Day 20 - Research Evaluation of the Threat Correlation Model
+
+The project introduced a descriptive evaluation stage for the
+explainable threat correlation model.
+
+The new module is:
+
+```text
+src/evaluate_correlation.py

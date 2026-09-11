@@ -106,6 +106,10 @@ PIPELINE_STEPS = [
         "src/threat_correlation.py"
     ),
 
+    (   "Evaluate threat correlation model",
+        "src/evaluate_correlation.py"
+    ),
+
     (   "Generate automated CTI report",
         "src/generate_report.py"
     ),

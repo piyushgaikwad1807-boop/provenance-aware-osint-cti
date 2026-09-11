@@ -1,0 +1,41 @@
+{
+  "evaluation_metadata": {
+    "generated_at": "2026-09-11T11:24:10.322135+00:00",
+    "method": "Descriptive evaluation of the prototype correlation model"
+  },
+  "overall_metrics": {
+    "total_records": 23,
+    "average_score": 92.565,
+    "highest_score": 95,
+    "lowest_score": 85
+  },
+  "correlation_level_distribution": {
+    "VERY_HIGH": 23,
+    "HIGH": 0,
+    "MEDIUM": 0,
+    "LOW": 0,
+    "VERY_LOW": 0
+  },
+  "exploitation_analysis": {
+    "known_exploited_records": 23,
+    "not_in_kev_records": 0,
+    "average_known_exploited_score": 92.565,
+    "average_not_in_kev_score": 0
+  },
+  "corroboration_analysis": {
+    "corroborated_records": 23,
+    "non_corroborated_records": 0,
+    "average_corroborated_score": 92.565,
+    "average_non_corroborated_score": 0
+  },
+  "confidence_analysis": {
+    "HIGH": {
+      "record_count": 23,
+      "average_correlation_score": 92.565
+    }
+  },
+  "research_metrics": {
+    "kev_match_rate": 100.0,
+    "corroboration_rate": 100.0
+  }
+}
