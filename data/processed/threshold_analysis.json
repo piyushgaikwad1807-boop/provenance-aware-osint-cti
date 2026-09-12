@@ -1,6 +1,6 @@
 {
   "analysis_metadata": {
-    "generated_at": "2026-09-11T15:27:02.767174+00:00",
+    "generated_at": "2026-09-12T05:50:52.266663+00:00",
     "method": "Threshold sensitivity analysis using proxy exploitation labels.",
     "thresholds_tested": [
       20,

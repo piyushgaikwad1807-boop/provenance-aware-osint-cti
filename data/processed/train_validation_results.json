@@ -1,6 +1,6 @@
 {
   "experiment_metadata": {
-    "generated_at": "2026-09-11T15:32:07.474313+00:00",
+    "generated_at": "2026-09-12T05:51:00.556062+00:00",
     "method": "Deterministic train/validation-style threshold experiment.",
     "training_ratio": 0.7,
     "validation_ratio": 0.30000000000000004,

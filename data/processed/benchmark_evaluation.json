@@ -1,6 +1,6 @@
 {
   "evaluation_metadata": {
-    "generated_at": "2026-09-11T15:21:25.107751+00:00",
+    "generated_at": "2026-09-12T05:50:43.598398+00:00",
     "method": "Benchmark evaluation using CISA KEV membership as a proxy exploitation label.",
     "prediction_rule": "VERY_HIGH and HIGH correlation levels are classified as positive."
   },
