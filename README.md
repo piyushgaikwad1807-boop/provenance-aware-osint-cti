@@ -2572,3 +2572,14 @@ The new module is:
 
 ```text
 src/statistical_analysis.py
+
+
+## Day 27 - Final Research Visualizations
+
+A research visualization layer was added to the CTI analysis
+pipeline.
+
+The new module is:
+
+```text
+src/research_visualizations.py

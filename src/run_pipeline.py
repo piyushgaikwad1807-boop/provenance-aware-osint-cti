@@ -138,6 +138,10 @@ PIPELINE_STEPS = [
         "src/statistical_analysis.py"
     ),
 
+    (   "Generate research visualizations",
+        "src/research_visualizations.py"
+    ),
+
     (   "Generate automated CTI report",
         "src/generate_report.py"
     ),
