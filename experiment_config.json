@@ -1,0 +1,41 @@
+{
+  "project": "Provenance-Aware OSINT Cyber Threat Intelligence and Automated Threat Correlation System",
+  "experiment": "Reproducible CTI correlation evaluation",
+  "correlation_model": "Improved signal-based heuristic correlation model",
+  "benchmark": "CISA Known Exploited Vulnerabilities membership proxy",
+  "signals": [
+    "CISA evidence",
+    "NVD evidence",
+    "KEV exploitation",
+    "source corroboration",
+    "CVSS severity",
+    "evidence confidence"
+  ],
+  "thresholds_evaluated": [
+    20,
+    30,
+    40,
+    50,
+    60,
+    70,
+    80
+  ],
+  "train_validation_split": "70/30 deterministic split",
+  "ablation_threshold": 50,
+  "statistical_analysis": [
+    "mean",
+    "median",
+    "standard deviation",
+    "quartiles",
+    "interquartile range",
+    "Cohen's d"
+  ],
+  "visualization_resolution_dpi": 300,
+  "limitations": [
+    "small dataset",
+    "heuristic model weights",
+    "KEV membership used as proxy exploitation label",
+    "deterministic train-validation split",
+    "exploratory statistical analysis"
+  ]
+}

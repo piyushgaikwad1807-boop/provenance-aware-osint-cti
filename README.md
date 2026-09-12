@@ -2583,3 +2583,13 @@ The new module is:
 
 ```text
 src/research_visualizations.py
+
+
+## Day 28 - Reproducibility and Experiment Automation
+
+A reproducibility layer was added to the project.
+
+The new module is:
+
+```text
+src/reproduce_experiment.py
